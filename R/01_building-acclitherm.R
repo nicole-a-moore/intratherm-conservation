@@ -306,6 +306,11 @@ acclitherm_species <- select(acclitherm_species, -class) %>%
 write_csv(acclitherm_species, "data-processed/acclitherm-species.csv")
 ## note: many missing taxonomy 
 
+acclitherm <- select(acclitherm, -class) %>%
+  left_join(., acclitherm_classes)
+  
+write_csv(acclitherm, "data-processed/acclitherm_Rohr-Comte-Intra.csv")
+
 
 
 # clean up combined dataset -----------------------------------------------
