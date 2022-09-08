@@ -4,6 +4,9 @@ library(readr)
 
 ## GPDD: 41 species, 235 populations
 ## LPI: 176 species, 1290 populations
+## BIOTIME: 169 species, 527 populations
+
+acclitherm <- read_csv("data-processed/acclitherm.csv")
 
 ########################################################
 ## figure out which species in acclitherm are in GPDD ##
@@ -128,10 +131,149 @@ ol_lpi <- overlap_lpi %>%
 
 write_csv(ol_lpi, "data-processed/population-ts/lpi_acclitherm-spp.csv")
 
+############################################################
+## figure out which species in acclitherm are in BioTIME  ##
+############################################################
+biotime <- read.csv("data-raw/biotime/BioTIMEQuery_24_06_2021.csv", stringsAsFactors = FALSE)
 
+colnames(biotime)
 
+## search list of TaxonNames for list of synonyms for our species
+names <- biotime$GENUS_SPECIES
+syns[which(syns %in% names)] # 178 overlapping species 
 
+## subset to overlapping data 
+overlap <- intersect(names, syns)
 
+## create genus_species column with name that matches acclitherm
+ol_biotime <- biotime %>% 
+  filter(GENUS_SPECIES %in% syns) %>%
+  mutate(genus_species = ifelse(GENUS_SPECIES %in% syns_df$acc_name,
+                                GENUS_SPECIES,
+                                NA)) %>%
+  left_join(., syns_df, by = c("GENUS_SPECIES" = "syn_name")) %>%
+  mutate(genus_species = ifelse(is.na(genus_species),
+                                acc_name,
+                                genus_species)) %>%
+  select(genus_species, everything())
+ol_biotime <- ol_biotime[,-c(17:29)]
 
+## which species are in overlap but not acclitherm?
+ol_biotime$genus_species[which(!ol_biotime$genus_species %in% acclitherm$genus_species)] ## should be empty
 
+## attach meta data 
+meta <- read.csv("data-raw/biotime/BioTIMEMetadata_24_06_2021.csv", stringsAsFactors = FALSE)
 
+ol_biotime <- left_join(ol_biotime, meta, by = "STUDY_ID") %>%
+  filter(!str_detect(DATA_SOURCE, "Global Population Dynamics Database")) %>%
+  arrange(STUDY_ID, SAMPLE_DESC, GENUS_SPECIES, YEAR) %>%
+  select(STUDY_ID, SAMPLE_DESC, GENUS_SPECIES, YEAR, sum.allrawdata.ABUNDANCE, 
+         sum.allrawdata.BIOMASS, everything()) %>%
+  select(-X) %>%
+  mutate(decimal_date = ifelse(is.na(MONTH), 
+                               YEAR, 
+                               ifelse(is.na(DAY), 
+                                      (MONTH*30)/365 + YEAR, 
+                                      (MONTH*30+DAY)/365 + YEAR))
+  ) ## create decimal_date column for each sampling time
+
+## make data frame of all sampled dates for each location so can add 0 abundance for days sampled but not found
+sample_dates <- biotime %>%
+  filter(STUDY_ID %in% ol_biotime$STUDY_ID) %>% ## remove studies that we don't have populations from
+  group_by(STUDY_ID) %>%
+  arrange(STUDY_ID, YEAR, MONTH, DAY) %>%
+  select(YEAR, MONTH, DAY, STUDY_ID) %>%
+  distinct() %>%
+  mutate(decimal_date = (MONTH*30+DAY)/365 + YEAR) %>% ## create decimal_date column for each sampling time
+  mutate(decimal_date = ifelse(is.na(MONTH) & is.na(DAY), YEAR, decimal_date)) %>%
+  filter(!is.na(decimal_date)) %>% 
+  select(decimal_date, STUDY_ID) %>%
+  ungroup()
+
+ol_biotime <- ol_biotime %>%
+  select(-SAMPLE_DESC, -decimal_date) %>%
+  arrange(STUDY_ID)
+
+## marine studies: treating whole study as one sampling location
+## look into how to deal with grain size later
+studyIDs <- ol_biotime %>% 
+  mutate(LATITUDE = CENT_LAT) %>% ## change lat and lon to central lat and lon of study
+  mutate(LONGITUDE = CENT_LONG) %>%
+  mutate(decimal_date = (MONTH*30+DAY)/365 + YEAR) %>% ## create decimal_date column for each sampling time
+  mutate(decimal_date = ifelse(is.na(MONTH) & is.na(DAY), YEAR, decimal_date)) %>%
+  arrange(STUDY_ID, GENUS_SPECIES, decimal_date, YEAR, MONTH, DAY) %>%
+  unique() %>%
+  split(., .$STUDY_ID, .$GENUS_SPECIES) 
+
+new_ol <- c()
+## merge so each study has each combination of sampling time x species
+i = 1
+while(i < length(studyIDs) + 1) {
+  species <- split(studyIDs[[i]], studyIDs[[i]]$GENUS_SPECIES)
+  dates <- sample_dates %>%
+    filter(STUDY_ID == unique(species[[1]]$STUDY_ID))
+  
+  z = 1
+  while(z < length(species) + 1) {
+    current_species <- left_join(dates, species[[z]], by = c("decimal_date", "STUDY_ID")) %>%
+      fill(-DAY, -YEAR, -MONTH, -sum.allrawdata.ABUNDANCE, -sum.allrawdata.BIOMASS, .direction = "updown")
+    
+    new_ol <- rbind(new_ol, current_species)
+    
+    z = z + 1
+  }
+  i = i + 1
+}
+
+new_ol <- new_ol %>%
+  mutate(population_id = paste(GENUS_SPECIES, LATITUDE, LONGITUDE, STUDY_ID, sep = "_")) ## add pop id
+
+## write out biotime without absense data
+write_csv(new_ol, "data-processed/population-ts/biotime_acclitherm-spp.csv")
+
+## add absences 
+new_ol <- new_ol %>%
+  mutate(sum.allrawdata.ABUNDANCE = 
+           ifelse(is.na(sum.allrawdata.ABUNDANCE), 0, sum.allrawdata.ABUNDANCE)) %>% ## replace missing abundance with 0
+  mutate(sum.allrawdata.BIOMASS = 
+           ifelse(is.na(sum.allrawdata.BIOMASS), 0, sum.allrawdata.BIOMASS)) %>%
+  group_by(decimal_date, GENUS_SPECIES, STUDY_ID) %>%
+  add_count() %>%
+  mutate(sum.allrawdata.ABUNDANCE = sum(sum.allrawdata.ABUNDANCE)/n) %>% ## get average abundance of samples taken in same time point + at same loc + same species 
+  mutate(sum.allrawdata.BIOMASS = sum(sum.allrawdata.BIOMASS)/n) %>%
+  ungroup() %>%
+  .[!duplicated(.[,c("decimal_date","sum.allrawdata.ABUNDANCE",
+                     "sum.allrawdata.BIOMASS","GENUS_SPECIES", "STUDY_ID")]),] %>% ## get rid of duplicates 
+  arrange(STUDY_ID, GENUS_SPECIES, decimal_date, YEAR, MONTH, DAY) %>%
+  select(-n)
+
+ol_biotime_new <- new_ol %>%
+  select(decimal_date, everything()) %>%
+  group_by(STUDY_ID) %>%
+  mutate(sample_type = case_when(
+    length(which(sum.allrawdata.ABUNDANCE == 0)) == length(sum.allrawdata.ABUNDANCE) ~ "biomass",
+    length(which(sum.allrawdata.BIOMASS == 0)) == length(sum.allrawdata.BIOMASS) ~ "abundance",
+    TRUE ~ "both"
+  )) %>% ## add column for type of abundance
+  ungroup() %>%
+  mutate(sum.allrawdata.ABUNDANCE = ifelse(sample_type == "biomass", 
+                                           NA, sum.allrawdata.ABUNDANCE)) %>%
+  mutate(sum.allrawdata.BIOMASS = ifelse(sample_type == "abundance", 
+                                         NA, sum.allrawdata.BIOMASS)) %>%
+  select(-YEAR, -DAY, -MONTH) 
+
+## write out
+write_csv(ol_biotime_new, "data-processed/population-ts/biotime-with-absenses_acclitherm-spp.csv")
+
+## plot them 
+ol_biotime_new %>% 
+  select(population_id, everything()) %>% 
+  ggplot(aes(x = decimal_date, y = sum.allrawdata.BIOMASS, group = population_id, color = GENUS_SPECIES)) + 
+  geom_line() +
+  theme(legend.position = "none")
+
+ol_biotime_new %>% 
+  filter(sample_type == "abundance") %>%
+  ggplot(aes(x = decimal_date, y = sum.allrawdata.ABUNDANCE, group = population_id, color = GENUS_SPECIES)) + 
+  geom_line() +
+  theme(legend.position = "none")
