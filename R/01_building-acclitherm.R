@@ -487,7 +487,7 @@ acclitherm_pops %>%
   filter(term == "acclim_temp") %>% #extract slope and intercept 
   rename(ARR = estimate) #rename these ARR
  
-## which ARR when there are multiple populations
+## which ARR when there are multiple populations?
 
 
 ## save final species list (406)
