@@ -497,5 +497,27 @@ acclitherm_species <- select(acclitherm_pops, genus_species, genus, species,
 
 write_csv(acclitherm_species, "data-processed/acclitherm_species-list.csv")
 
+
+## clean realm column 
+acclitherm <- acclitherm %>%
+  filter(realm_general == "Aquatic") %>%
+  mutate(realm_general = ifelse(realm_specific %in% c("marine", "estuarine"),
+                                "Marine",
+                                ifelse(realm_specific %in% c("pond", "stream", "estuarine"),
+                                       "Freshwater",
+                                       ifelse(class == "Amphibia",
+                                              "Terrestrial",
+                                              "Aqautic")))) %>%
+  rbind(., filter(acclitherm, realm_general != "Aquatic")) %>%
+  mutate(realm_general = ifelse(realm_general == "Aquatic & terrestrial",
+                                "Terrestrial",
+                                realm_general))
+
+## make sure all amphibias are terrestrial 
+acclitherm <- acclitherm %>%
+  filter(class == "Amphibia") %>%
+  mutate(realm_general = "Terrestrial") %>%
+  rbind(., filter(acclitherm, class != "Amphibia"))
+
 ## save final dataset
 write_csv(acclitherm, "data-processed/acclitherm.csv")

@@ -82,6 +82,9 @@ ol_gpdd %>%
 
 ggsave("figures/gpdd-time-series.pdf", width = 20, height = 12)
 
+## add pop ts identifier (database_rowID)
+ol_gpdd$popts_id <- paste("GPDD", 1:nrow(ol_gpdd), sep = "_")
+ol_gpdd$population_id <- paste(ol_gpdd$genus_species, ol_gpdd$LatDD, ol_gpdd$LongDD, ol_gpdd$MainID, sep = "_")
 write_csv(ol_gpdd, "data-processed/population-ts/gpdd_acclitherm-spp.csv")
 
 
@@ -123,12 +126,14 @@ length(unique(overlap_lpi$ID)) ## 1290 populations
 
 ## reformat data to match gpdd
 ol_lpi <- overlap_lpi %>% 
-  mutate(populaton_id = paste(genus_species, Latitude, Longitude, ID, sep = "_")) %>%
+  mutate(population_id = paste(genus_species, Latitude, Longitude, ID, sep = "_")) %>%
   gather(key = year, value = abundance, "1950":"2018") %>% 
   mutate(abundance = ifelse(abundance == "NULL", NA, abundance)) %>% 
   mutate(abundance = as.numeric(abundance)) %>% 
   mutate(year = as.numeric(year))
 
+## add pop ts identifier (database_rowID)
+ol_lpi$popts_id <- paste("LPI", 1:nrow(ol_lpi), sep = "_")
 write_csv(ol_lpi, "data-processed/population-ts/lpi_acclitherm-spp.csv")
 
 ############################################################
@@ -228,6 +233,9 @@ while(i < length(studyIDs) + 1) {
 new_ol <- new_ol %>%
   mutate(population_id = paste(GENUS_SPECIES, LATITUDE, LONGITUDE, STUDY_ID, sep = "_")) ## add pop id
 
+## add pop ts identifier (database_rowID)
+new_ol$popts_id <- paste("BioTIME", 1:nrow(new_ol), sep = "_")
+
 ## write out biotime without absense data
 write_csv(new_ol, "data-processed/population-ts/biotime_acclitherm-spp.csv")
 
@@ -262,8 +270,8 @@ ol_biotime_new <- new_ol %>%
                                          NA, sum.allrawdata.BIOMASS)) %>%
   select(-YEAR, -DAY, -MONTH) 
 
-## write out
-write_csv(ol_biotime_new, "data-processed/population-ts/biotime-with-absenses_acclitherm-spp.csv")
+## add pop ts identifier (database_rowID)
+ol_biotime_new$popts_id <- paste("BioTIME", 1:nrow(ol_biotime_new), sep = "_")
 
 ## plot them 
 ol_biotime_new %>% 
@@ -277,3 +285,6 @@ ol_biotime_new %>%
   ggplot(aes(x = decimal_date, y = sum.allrawdata.ABUNDANCE, group = population_id, color = GENUS_SPECIES)) + 
   geom_line() +
   theme(legend.position = "none")
+
+## write out
+write_csv(ol_biotime_new, "data-processed/population-ts/biotime-with-absences_acclitherm-spp.csv")
