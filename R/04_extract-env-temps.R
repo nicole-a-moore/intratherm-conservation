@@ -197,8 +197,8 @@ while (unique_loc < nrow(unique_pairs) + 1) {
 
 
 terrestrial_temps <- temperature_data[-1,]
-#saveRDS(terrestrial_temps, "data-processed/intermediate-data/terrestrial_tavg.rds")
-terrestrial_temps <- readRDS("data-processed/intermediate-data/terrestrial_tavg.rds")
+#saveRDS(terrestrial_temps, "data-processed/temperature-data/terrestrial_tavg.rds")
+terrestrial_temps <- readRDS("data-processed/temperature-data/terrestrial_tavg.rds")
 
 
 ####################################
@@ -286,3 +286,115 @@ marine_temps <- readRDS("~/Documents/SUNDAY LAB/Intratherm/Data sheets/precious_
 
 
 
+
+########################################
+##      GETTING FRESHWATER TEMPS      ##
+########################################
+unique_pairs <- all_locs %>%
+  filter(realm_of_population == "Freshwater")%>%
+  #rbind(., marine_missing) %>%
+  select(latitude, longitude, temp_id) %>%
+  unique()
+
+## open nc file and get lat lon and time vectors
+filename <- paste("data-raw/temperature-data/watertemperature_wfd_historical_1958-2001.nc", sep = "")
+ncfile <- nc_open(filename)
+
+lon <- ncvar_get(ncfile, "longitude") ## units: degrees - intervals of 0.5 (30')
+lat <- ncvar_get(ncfile, "latitude") ## units: degrees - intervals of 0.5 (30')
+time <- ncvar_get(ncfile, "time") ## units: hours since 1901-01-01 (first time is 1958-01-01) 
+
+## close the file
+nc_close(ncfile)
+
+## temps:
+temperature_data <- data.frame(matrix(nrow = length(time)))
+colnames(temperature_data) = c("date")
+temperature_data$date <- time
+
+## for each population:
+unique_loc <- 1
+while (unique_loc < nrow(unique_pairs) + 1) {
+  print(paste("On: ", unique_loc, sep = ""))
+  
+  ## find closest lat lon coordinates to population collection location
+  loc_lon_index <- which.min(abs(lon - unique_pairs$longitude[unique_loc]))
+  loc_lat_index <- which.min(abs(lat - unique_pairs$latitude[unique_loc]))
+  
+  ## get waterTemp time series for closest lat lon coordinates 
+  ncfile <- nc_open(filename)
+  waterTemp <- ncvar_get(ncfile, "waterTemperature", start = c(loc_lon_index, loc_lat_index, 1), 
+                         count = c(1, 1, -1))
+  nc_close(ncfile)
+  
+  ## add to column in temperature_data and rename after column's population_id with longitude added onto the end
+  temperature_data$temp <- waterTemp
+  colnames(temperature_data)[unique_loc+1] <- unique_pairs$temp_id[unique_loc]
+  
+  unique_loc <- unique_loc + 1
+}
+
+freshwater_temps <- temperature_data
+#saveRDS(freshwater_temps, "data-processed/temperature-data/freshwater_tavg.rds")
+freshwater_temps <- readRDS("~/Documents/SUNDAY LAB/Intratherm/Data sheets/precious_temps_freshdaily_popdynam.rds")
+
+# ## change realm_of_population for missing marine temps to freshwater:
+# ol_locs_all <- ol_locs_all %>%
+#   mutate(realm_of_population = ifelse(temp_id %in% colnames(freshwater_temps), "Freshwater", realm_of_population))
+# 
+# population_overlap <- population_overlap %>%
+#   mutate(realm_of_population = ifelse(temp_id %in% colnames(freshwater_temps), "Freshwater", realm_of_population))
+# 
+
+## convert from degrees K to degrees C
+converted <- freshwater_temps
+converted[, 2:256] <- converted[, 2:256] - 273.15
+
+## convert date 
+## starts at 1958-01-01
+year <- c(round(0.5/365, digits = 3))
+leap_year <- c(round(0.5/366, digits = 3))
+
+i = 1
+while (i < 366) {
+  if (i < 365) {
+    year = append(year, round((i+0.5)/365, digits = 3))
+  }
+  leap_year = append(leap_year, round((i+0.5)/366, digits = 3))
+  i = i+1
+}
+
+rep = 1958
+last_year = 2002
+date <- c()
+
+while (rep < last_year) {
+  if (rep %% 4 == 0){
+    if (rep == 1900) { 
+      date <- append(date, rep+year, after = length(date))
+    }
+    else {
+      date <- append(date, rep+leap_year, after = length(date))
+    }
+  }
+  else {
+    date <- append(date, rep+year, after = length(date))
+  }
+  rep = rep + 1
+}
+
+## replace column for date
+converted$date <- as.vector(date)
+freshwater_temps <- converted
+
+##  check na:
+na_locs <- colnames(freshwater_temps)[which(is.na(freshwater_temps[1,]))]
+na_locs	<- na_locs[!na_locs %in% marine_missing$temp_id]
+
+
+#############################################################################################
+## make array of overlapping population trend and temperature time series for each population 
+## later add predicted CTmax time series to array
+#############################################################################################
+library(rlist)
+library(lubridate)

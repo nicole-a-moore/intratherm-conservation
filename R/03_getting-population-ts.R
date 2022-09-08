@@ -288,3 +288,17 @@ ol_biotime_new %>%
 
 ## write out
 write_csv(ol_biotime_new, "data-processed/population-ts/biotime-with-absences_acclitherm-spp.csv")
+
+
+
+## generate master species list - species in all databases, number of populations for each, which dataset
+biotime_pop <- biotime %>%
+  select(GENUS_SPECIES, LATITUDE, LONGITUDE, STUDY_ID) %>%
+  unique() %>%
+  group_by(GENUS_SPECIES) %>%
+  tally() %>%
+  rename("number_of_populations" = n) %>%
+  mutate(database = "BioTIME")
+
+gpdd <- taxa %>%
+  filter(unqiue())
