@@ -1,0 +1,15 @@
+5b327ce9f3e5d79bd42604c1d96fcafd metadata/sysmeta/sysmeta-df35b.237.1.xml
+f346cdf8ac7a932697a2d5b4f1f958ce metadata/sysmeta/sysmeta-df35b.236.1.xml
+13ccff7ddaab88a83a070fa61c23157c bag-info.txt
+7f74a78514595f0cf5961cbd694c37f2 metadata/sysmeta/sysmeta-df35b.235.1.xml
+e72d29c54e55cae1525198577f6df116 metadata/sysmeta/sysmeta-df35b.238.1.xml
+692f1d05ad543349f2b09735feb825a0 metadata/science-metadata.xml
+9621a8b38c814e5b0c53a0d30157a394 metadata/sysmeta/sysmeta-df35b.241.1.xml
+f51c52ab6b140cb03a7c00683eda0beb metadata/sysmeta/sysmeta-df35b.233.1.xml
+61b390e97b246d4dab0945d055ba550b manifest-md5.txt
+e7b34efa42b87f4df68a1d5f3dd8080c metadata/oai-ore.xml
+31f846b7f43ccfa275a8044bab114005 metadata/sysmeta/sysmeta-urn_uuid_bced9df4-1398-4768-a0f3-6d5007446ad4.xml
+31daf47dbbf3b1bd8929430e4f23d8fe metadata/sysmeta/sysmeta-df35b.234.1.xml
+eaa2c609ff6371712f623f5531945b44 bagit.txt
+7bf5dca14bd70ef129b5e0af47ea680e metadata/sysmeta/sysmeta-df35b.239.1.xml
+b0914a11ca977e1161a3edc9ee8dba02 metadata/sysmeta/sysmeta-doi_10.5063_F1BZ63Z8.xml
