@@ -468,6 +468,7 @@ while (unique_loc < nrow(unique_pairs) + 1) {
 marine_temps <- temperature_data
 #saveRDS(marine_temps, "data-processed/temperature-data/marine_tavg.rds")
 marine_temps <- readRDS("data-processed/temperature-data/marine_tavg.rds")
+colnames(marine_temps)[1] = "date"
 
 ## get rid of missing temps 
 marine_missing <- unique_pairs[which(unique_pairs$temp_id %in% colnames(marine_temps)[which(is.na(marine_temps[1,]))]),] %>%
@@ -476,7 +477,7 @@ marine_missing <- unique_pairs[which(unique_pairs$temp_id %in% colnames(marine_t
 ## could not find 64 locations
 marine_temps <- marine_temps[,-which(colnames(marine_temps) %in% marine_missing$temp_id)]
 
-write.csv(marine_temps, "data-processed/temperature-data/marine_tavg.csv")
+write.csv(marine_temps, "data-processed/temperature-data/marine_tavg.csv", row.names = FALSE)
 
 
 ########################################
@@ -694,5 +695,8 @@ locs_found <- append(colnames(marine_temps)[-1], colnames(freshwater_temps)[-1])
 with_temps <- filter(all_locs, temp_id %in% locs_found)
 length(unique(with_temps$population_id)) # 1557
 length(unique(all_locs$population_id)) # 2052
+
+with_temps <- with_temps %>%
+  unique(.)
 
 write.csv(with_temps, "data-processed/populations-with-temps.csv", row.names = FALSE)
