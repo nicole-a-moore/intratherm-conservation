@@ -300,5 +300,25 @@ biotime_pop <- biotime %>%
   rename("number_of_populations" = n) %>%
   mutate(database = "BioTIME")
 
-gpdd <- taxa %>%
-  filter(unqiue())
+gpdd_pop <- taxa %>%
+  left_join(., main, by = "TaxonID") %>%
+  left_join(., location, by = "LocationID") %>%
+  select(TaxonName, LatDD, LongDD, MainID)%>%
+  unique() %>%
+  group_by(TaxonName) %>%
+  tally() %>%
+  rename("number_of_populations" = n) %>%
+  mutate(database = "GPDD")
+
+lpi_pop <- lpi %>%
+  select(Binomial, Latitude, Longitude, ID)%>%
+  unique() %>%
+  group_by(Binomial) %>%
+  tally() %>%
+  rename("number_of_populations" = n) %>%
+  mutate(database = "LPI")
+
+colnames(biotime_pop) <- colnames(lpi_pop) <- colnames(gpdd_pop) <- c("genus_species", "number_of_populations", "database")
+popts_species_list <- rbind(biotime_pop, lpi_pop) %>% rbind(., gpdd_pop)
+
+write_csv(popts_species_list, "data-processed/population-ts_species-list.csv")
