@@ -1,119 +1,117 @@
 genus_species,reference,paper_source,doi,extracted,discarded,notes,found
+Myzus persicae,Alford et al 2011,Morley,doi: 10.1111/j.1461-9563.2011.00553.x,Y,Y,nymphs,Y
+Tenebrio molitor,Allen et al 2012,Morley,doi:10.1016/j.jinsphys.2012.01.016,Y,Y,lab maintained colony refreshed with individuals from supplier,Y
+Notothenia coriiceps,Bilyk and DeVries 2011,Morley,doi:10.1016/j.cbpa.2010.12.010,Y,N,NA,Y
+Pagothenia borchgrevinki,Bilyk and DeVries 2011,Morley,doi:10.1016/j.cbpa.2010.12.010,Y,N,NA,Y
+Rana catesbeiana,Brattstrom 1968,Morley,doi: 10.1016/0010-406X(68)90961-4,Y,Y,already have in intratherm,
+Rana clamitans,Brattstrom 1968,Morley,doi: 10.1016/0010-406X(68)90961-4,Y,Y,already have in intratherm,
+Limnodynastes dorsalis,Brattstrom 1970,Morley,doi: 10.1016/0010-406x(70) 90915-1,Y,Y,already have in intratherm,
 Sitobion avenae,Cao_et_al_2018,new_papers_2019,NA,Y,Y,developmental acclimation study,Y
+Cyprinella lutrensis,Carveth et al 2006,Morley,doi: 10.1577/T05-025.1,Y,Y,already have in intratherm,
+Gambusia affinis,Carveth et al 2006,Morley,doi: 10.1577/T05-025.1,Y,Y,already have in intratherm,
+Lepomis cyanellus,Carveth et al 2006,Morley,doi: 10.1577/T05-025.1,Y,Y,already have in intratherm,
+Lepomis macrochirus,Carveth et al 2006,Morley,doi: 10.1577/T05-025.1,Y,Y,already have in intratherm,
 Pomatoschistus microps,cereja_2017,new_papers_2019,NA,Y,N,NA,Y
-Pterois volitans,Dabruzzi_et_al_2017,new_papers_2019,NA,N,N,NA,Y
-Elacatinus oceanops,Di_Santo_and_Lobe_2017,new_papers_2019,NA,N,N,NA,Y
-Argyrosomus regius,Kir et al 2017,new_papers_2019,NA,N,N,NA,Y
-Dicentrarchus labrax,Kõr_and_Demirci_2018,new_papers_2019,NA,N,N,NA,Y
-Galaxias maculatus,Lattuca et al 2018,new_papers_2019,NA,N,N,NA,Y
-Abudefduf saxatilis,Madeira_et_at_2017,new_papers_2019,NA,N,N,NA,Y
-Scartella cristata,Madeira_et_at_2017,new_papers_2019,NA,N,N,NA,Y
-Desmognathus monticola,Markle_et_al_2018,new_papers_2019,NA,N,N,NA,Y
-Desmognathus ochrophaeus,Markle_et_al_2018,new_papers_2019,NA,N,N,NA,Y
-Plethodon cinereus,Markle_et_al_2018,new_papers_2019,NA,N,N,NA,Y
-Plethodon glutinosus,Markle_et_al_2018,new_papers_2019,NA,N,N,NA,Y
-Hippocampus erectus,Mascaro et al 2016,new_papers_2019,NA,N,N,NA,Y
-Plectropomus leopardus,Messmer_et_al_2017,new_papers_2019,NA,N,N,NA,Y
-Eucidaris tribuloides,Morley_et_al_2016,new_papers_2019,NA,N,N,NA,Y
-Amphibalanus amphitrite,Morley_et_al_2017,new_papers_2019,NA,N,N,NA,Y
-Clupea harengus,Moyano_et_al_2017,new_papers_2019,NA,N,N,NA,Y
-Dicentrarchus labrax,Moyano_et_al_2017,new_papers_2019,NA,N,N,NA,Y
-Centropomus undecimalis,Paschke et al 2018,new_papers_2019,NA,N,N,NA,Y
-Ocyurus chrysurus,Paschke et al 2018,new_papers_2019,NA,N,N,NA,Y
-Amphiprion ocellaris,Paschke et al 2018,new_papers_2019,NA,N,N,NA,Y
+Campostoma anomalum,Chagnon and Hlohowskyj 1989,Morley,doi: 10.1007/BF01700246,Y,N,NA,Y
+Eleutherodactylus coqui,Christian et al 1998,Morley,NA,Y,Y,already have in intratherm,
+Poecilia reticulata,Chung 2001,Morley,doi: 10.1023/A:1013158904036,Y,Y,already have in intratherm,
+Orconectes rusticus,Claussen 1980,Morley,doi: 10.1016/0300-9629(80)90183-8,Y,N,NA,Y
+Cancer pagurus,Cuculescu et al 1998,Morley,doi: 10.1016/S0306-4565(98)00008-4,Y,N,NA,Y
+Pterois volitans,Dabruzzi_et_al_2017,new_papers_2019,NA,Y,N,NA,Y
+Gibbonsia montereyensis,Davis 1977,Morley,doi: 10.1007/BF00402193,Y,N,NA,Y
+Elacatinus oceanops,Di_Santo_and_Lobe_2017,new_papers_2019,NA,Y,Y,juveniles,Y
+Pseudacris triseriata,Dunlap 1968,Morley,doi: 10.1086/physzool.41.4.30155478,Y,Y,already have in intratherm,
+Plethodon glutinosus,Elwood 2003,Morley,NA,Y,Y,already have in intratherm,
+Plethodon cylindraceus,Elwood 2003,Morley,NA,N,N,NA,N
+Apogon novemfasciatus,Eme & Bennett 2009,Morley,doi:10.1016/j.jtherbio.2009.02.005,Y,N,NA,Y
+Bathygobius fuscus,Eme & Bennett 2009,Morley,doi:10.1016/j.jtherbio.2009.02.005,Y,N,NA,Y
+Dascyllus aruanus,Eme & Bennett 2009,Morley,doi:10.1016/j.jtherbio.2009.02.005,Y,N,NA,Y
+Dasyatis sabina,Fangue & Bennett 2003,Morley,NA,Y,Y,already have in intratherm,
+Plethodon cinereus,Feder & Pough 1975,Morley,doi: 10.1016/S0010-406X(75)80207-6,Y,N,NA,Y
+Elliptio complanata,Galbraith et al 2012,Morley,doi: 10.1899/11-025.1,Y,N,NA,Y
+Orchestia gammarellus,Gaston and Spicer 1998,Morley,doi: 10.1016/S0022-0981(00)00299-9,Y,N,NA,Y
+Acartia clausi,Gonzalez 1974,Morley,doi: 10.1007/BF00391947,Y,N,NA,Y
+Acartia tonsa,Gonzalez 1974,Morley,doi: 10.1007/BF00391947,Y,N,NA,Y
+Lepomis macrochirus,Holland et al 1974,Morley,http://www.jstor.org/stable/30155628,Y,Y,already have in intratherm,
+Notolabrus celidotus,Hooper 2008,Morley,NA,Y,Y,already have in intratherm,
+Coryphoblennius galerita,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,N
+Pachygrapsus transversus,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,N
+Palaemon elegans,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,N
+Palaemon northropi,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,N
+Parablennius marmoreus,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,N
+Pomatoschistus microps,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,N
+Bathygobius soporator,Ines 2014 (MSci Thesis) Universidade de Lisboa Universidade de Lisboa,Morley,NA,N,N,NA,N
+Amphibalanus amphitrite,Khanh Dung unpub,Morley,-,N,N,NA,
+Argyrosomus regius,Kir et al 2017,new_papers_2019,NA,Y,Y,juveniles,Y
+Dicentrarchus labrax,Kõr_and_Demirci_2018,new_papers_2019,NA,Y,Y,juveniles,Y
+Asellus aquaticus,Lagerspetz 2003,Morley,doi:10.1016/S0306-4565(03)00027-5,Y,N,NA,Y
+Asellus aquaticus,"Laggerspertz and Bowler, 1993",Morley,NA,N,N,NA,N
+Galaxias maculatus,Lattuca et al 2018,new_papers_2019,NA,Y,Y,juveniles,Y
+Oncorhynchus mykiss,Lee and Rinne 1980,Morley,doi: 10.1577/1548-8659(1980)109<632:CTMOFT>2.0.CO;2,Y,Y,already have in intratherm,
+Salmo trutta,Lee and Rinne 1980,Morley,doi: 10.1577/1548-8659(1980)109<632:CTMOFT>2.0.CO;2,Y,Y,already have in intratherm,
+Salvelinus fontinalis,Lee and Rinne 1980,Morley,doi: 10.1577/1548-8659(1980)109<632:CTMOFT>2.0.CO;2,Y,Y,already have in intratherm,
+Rana catesbeiana,"Lotshaw, 1977",Morley,doi: 10.1016/0300-9629(77)90239-0,Y,Y,already have in intratherm,
+Abudefduf saxatilis,Madeira_et_at_2017,new_papers_2019,NA,Y,Y,juveniles,Y
+Scartella cristata,Madeira_et_at_2017,new_papers_2019,NA,Y,Y,juveniles,Y
+Desmognathus monticola,Markle_et_al_2018,new_papers_2019,NA,Y,Y,does not report the ctmax at each acclimation temperature,Y
+Desmognathus ochrophaeus,Markle_et_al_2018,new_papers_2019,NA,Y,Y,does not report the ctmax at each acclimation temperature,Y
+Plethodon cinereus,Markle_et_al_2018,new_papers_2019,NA,Y,Y,does not report the ctmax at each acclimation temperature,Y
+Plethodon glutinosus,Markle_et_al_2018,new_papers_2019,NA,Y,Y,does not report the ctmax at each acclimation temperature,Y
+Plethodon cylindraceus,Markle_et_al_2018,new_papers_2019,NA,Y,Y,does not report what we need,Y
+Plethodon montanus,Markle_et_al_2018,new_papers_2019,NA,Y,Y,does not report what we need,Y
+Plethodon teyahalee,Markle_et_al_2018,new_papers_2019,NA,Y,Y,does not report what we need,Y
+Hippocampus erectus,Mascaro et al 2016,new_papers_2019,NA,Y,Y,juveniles,Y
+Plectropomus leopardus,Messmer_et_al_2017,new_papers_2019,NA,Y,Y,does not use multiple acclimation temperatures for Ctmax experiments,Y
+Eucidaris tribuloides,Morley_et_al_2016,new_papers_2019,NA,Y,Y,do not study the right thing,Y
+Amphibalanus amphitrite,Morley_et_al_2017,new_papers_2019,NA,Y,N,NA,Y
+Clupea harengus,Moyano_et_al_2017,new_papers_2019,NA,Y,Y,larvae,Y
+Dicentrarchus labrax,Moyano_et_al_2017,new_papers_2019,NA,Y,Y,larvae,Y
+Albula vulpes,Murchie et al 2011,Morley,doi:10.1016/j.jtherbio.2010.10.005,Y,N,NA,Y
+Gambusia affinis,Otto 1973,Morley,doi: 10.1111/j.1095-8649.1973.tb04490.x,doi: 10.1577/1548-8659(1980)109<632:CTMOFT>2.0.CO;2,Y,Y,already have in intratherm
+Alosa pseudoharengus,Otto et al 1976,Morley,doi:10.1577/1548-8659(1976)105<96:LAPTOT>2.0.CO;2,Y,N,NA,Y
+Bombus impatiens,Oyen and Dillon 2018,new_papers_2019,NA,Y,Y,bee populations from commercial stock,Y
+Centropomus undecimalis,Paschke et al 2018,new_papers_2019,NA,Y,Y,juveniles,Y
+Ocyurus chrysurus,Paschke et al 2018,new_papers_2019,NA,Y,Y,juveniles,Y
+Amphiprion ocellaris,Paschke et al 2018,new_papers_2019,NA,Y,Y,juveniles,Y
 Sardinops sagax,Pribyl_et_al_2016,new_papers_2019,NA,N,N,NA,Y
 Panulirus argus,rodriguez_fuentes2017,new_papers_2019,NA,N,N,NA,Y
-Bombus impatiens,Oyen and Dillon 2018,new_papers_2019,NA,Y,Y,bee populations from commercial stock,Y
-Plethodon cylindraceus,Markle_et_al_2018,new_papers_2019,NA,N,N,NA,Y
-Plethodon montanus,Markle_et_al_2018,new_papers_2019,NA,N,N,NA,Y
-Plethodon teyahalee,Markle_et_al_2018,new_papers_2019,NA,N,N,NA,Y
-Acartia clausi,Gonzalez 1974,Morley,doi: 10.1007/BF00391947,N,N,NA,
-Acartia tonsa,Gonzalez 1974,Morley,doi: 10.1007/BF00391947,N,N,NA,
-Albula vulpes,Murchie et al 2011,Morley,doi:10.1016/j.jtherbio.2010.10.005,N,N,NA,
-Alosa pseudoharengus,Otto et al 1976,Morley,doi:10.1577/1548-8659(1976)105<96:LAPTOT>2.0.CO;2,N,N,NA,
-Amphibalanus amphitrite,Khanh Dung unpub,Morley,-,N,N,NA,
-Anguilla australis,"Simons, 1984",Morley,NA,N,N,NA,
-Apogon novemfasciatus,Eme & Bennett 2009,Morley,doi:10.1016/j.jtherbio.2009.02.005,N,N,NA,
-Asellus aquaticus,Lagerspetz 2003,Morley,doi:10.1016/S0306-4565(03)00027-5,N,N,NA,
-Asellus aquaticus,"Laggerspertz and Bowler, 1993",Morley,NA,N,N,NA,
-Bathygobius fuscus,Eme & Bennett 2009,Morley,doi:10.1016/j.jtherbio.2009.02.005,N,N,NA,
-Bathygobius soporator,Ines 2014 (MSci Thesis) Universidade de Lisboa Universidade de Lisboa,Morley,NA,N,N,NA,
-Campostoma anomalum,Chagnon and Hlohowskyj 1989,Morley,doi: 10.1007/BF01700246,N,N,NA,
-Cancer pagurus,Cuculescu et al 1998,Morley,doi: 10.1016/S0306-4565(98)00008-4,N,N,NA,
-Chelydra serpentina,Williamson et al 1989,Morley,doi: 10.1016/0306-4565(89)90027-2,N,N,NA,
-Clupea pallasi,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,N,N,NA,
-Coryphoblennius galerita,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,
-Crangon crangon,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,N,N,NA,
-Cyprinella lutrensis,Carveth et al 2006,Morley,doi: 10.1577/T05-025.1,N,N,NA,
-Dascyllus aruanus,Eme & Bennett 2009,Morley,doi:10.1016/j.jtherbio.2009.02.005,N,N,NA,
-Dasyatis sabina,Fangue & Bennett 2003,Morley,NA,N,N,NA,
-Elliptio complanata,Galbraith et al 2012,Morley,doi: 10.1899/11-025.1,N,N,NA,
-Etheostoma blennioides,Hlohowskyj and Wissing 1985,Morley,doi: 10.1139/z85-241,N,N,NA,
-Etheostoma caeruleum,Hlohowskyj and Wissing 1985,Morley,doi: 10.1139/z85-241,N,N,NA,
-Etheostoma flabellare,Hlohowskyj and Wissing 1985,Morley,doi: 10.1139/z85-241,N,N,NA,
-Etheostoma nigrum,Smith and Fausch 1997,Morley,doi:10.1577/1548-8659(1997)126<0676:TTAVPO>2.3.CO;2,N,N,NA,
-Farfantepenaeus aztecus,Re et al 2005,Morley,doi:10.1016/j.jtherbio.2005.09.004,N,N,NA,
-Galaxias maculatus,"Simons, 1984",Morley,NA,N,N,NA,
-Gambusia affinis,Carveth et al 2006,Morley,doi: 10.1577/T05-025.1,N,N,NA,
-Gambusia affinis,Otto 1973,Morley,doi: 10.1111/j.1095-8649.1973.tb04490.x,N,N,NA,
-Gambusia affinis,"Simons, 1984",Morley,NA,N,N,NA,
-Gibbonsia montereyensis,Davis 1977,Morley,doi: 10.1007/BF00402193,N,N,NA,
-Gobiomorphus basalis,"Simons, 1984",Morley,NA,N,N,NA,
-Gobiomorphus cotidianus,"Simons, 1984",Morley,NA,N,N,NA,
-Lepomis cyanellus,Carveth et al 2006,Morley,doi: 10.1577/T05-025.1,N,N,NA,
-Lepomis macrochirus,Carveth et al 2006,Morley,doi: 10.1577/T05-025.1,N,N,NA,
-Lepomis macrochirus,Holland et al 1974,Morley,http://www.jstor.org/stable/30155628,N,N,NA,
-Limnodynastes dorsalis,Brattstrom 1970,Morley,doi: 10.1016/0010-406x(70) 90915-1,N,N,NA,
-Margarites helicinus,Richard et al 2012,Morley,doi:10.1016/j.jembe.2012.01.010,N,N,NA,
-Myzus persicae,Alford et al 2011,Morley,doi: 10.1111/j.1461-9563.2011.00553.x,N,N,NA,
-Myzus persicae,Alford et al 2011,Morley,doi: 10.1111/j.1439-0418.2011.01658.x,N,N,NA,
-Myzus persicae,Alford et al 2012,Morley,doi: 10.1111/j.1461-9563.2011.00553.x,N,N,NA,
-Notolabrus celidotus,Hooper 2008,Morley,NA,N,N,NA,
-Notothenia coriiceps,Bilyk and DeVries 2011,Morley,doi:10.1016/j.cbpa.2010.12.010,N,N,NA,
-Oncorhynchus keta,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,N,N,NA,
-Oncorhynchus mykiss,Lee and Rinne 1980,Morley,doi: 10.1577/1548-8659(1980)109<632:CTMOFT>2.0.CO;2,N,N,NA,
-Oplegnathus fasciatus,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,N,N,NA,
-Orchestia gammarellus,Gaston and Spicer 1998,Morley,doi: 10.1016/S0022-0981(00)00299-9,N,N,NA,
-Orchestia gammarellus,Morritt & Ing_lfsson 2000,Morley,doi: 10.1016/S0022-0981(00)00299-9,N,N,NA,
-Orconectes rusticus,Claussen 1980,Morley,doi: 10.1016/0300-9629(80)90183-8,N,N,NA,
-Orconectes rusticus,Layne et al 1987,Morley,doi: 10.1016/0306-4565(87)90001-5,N,N,NA,
-Pachygrapsus transversus,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,
-Pagothenia borchgrevinki,Bilyk and DeVries 2011,Morley,doi:10.1016/j.cbpa.2010.12.010,N,N,NA,
-Pagrus major,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,N,N,NA,
-Palaemon elegans,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,
-Palaemon elegans,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,N,N,NA,
-Palaemon northropi,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,
-Palaemon serratus,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,N,N,NA,
-Palaemonetes varians,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,N,N,NA,
-Palaemonetes varians,New et al.2014,Morley,doi: 10.1007/s00227-013-2371-9,N,N,NA,
-Palaemonetes varians,Ravaux et al 2012,Morley,doi: 10.1007/s00360-012-0666-7,N,N,NA,
-Pandalus montagui,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,N,N,NA,
-Parablennius marmoreus,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,
-Parapristipoma trilineatum,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,N,N,NA,
-Paratya curvirostris,"Simons, 1984",Morley,NA,N,N,NA,
-Plethodon cinereus,Feder & Pough 1975,Morley,doi: 10.1016/S0010-406X(75)80207-6,N,N,NA,
-Plethodon glutinosus,Elwood 2003,Morley,NA,N,N,NA,
-Plethodon glutinosus,Spotila 1972,Morley,NA,N,N,NA,
-Plethodon jordani,Spotila 1972,Morley,NA,N,N,NA,
-Poecilia reticulata,Chung 2001,Morley,doi: 10.1023/A:1013158904036,N,N,NA,
-Pomatoschistus microps,Ines 2014 (MSci Thesis) Universidade de Lisboa,Morley,NA,N,N,NA,
-Portunus pelagicus,Qari 2014,Morley,doi:10.12980/JCLM.2.2014JCLM-2014-0057,N,N,NA,
-Pseudacris triseriata,Dunlap 1968,Morley,doi: 10.1086/physzool.41.4.30155478,N,N,NA,
-Pseudocaranx dentex,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,N,N,NA,
-Rana catesbeiana,Brattstrom 1968,Morley,doi: 10.1016/0010-406X(68)90961-4,N,N,NA,
-Rana catesbeiana,"Lotshaw, 1977",Morley,doi: 10.1016/0300-9629(77)90239-0,N,N,NA,
-Rana clamitans,Brattstrom 1968,Morley,doi: 10.1016/0010-406X(68)90961-4,N,N,NA,
-Saduria entomon,Kivivuori and Lagerspetz 1990,Morley,NA,N,N,NA,
-Salmo trutta,Lee and Rinne 1980,Morley,doi: 10.1577/1548-8659(1980)109<632:CTMOFT>2.0.CO;2,N,N,NA,
-Salvelinus fontinalis,Lee and Rinne 1980,Morley,doi: 10.1577/1548-8659(1980)109<632:CTMOFT>2.0.CO;2,N,N,NA,
-Sardinops melanostictus,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,N,N,NA,
-Serripes groenlandicus,Richard et al 2012,Morley,doi:10.1016/j.jembe.2012.01.010,N,N,NA,
-Sillago japonica,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,N,N,NA,
-Strongylocentrotus droebachiensis,Richard et al 2012,Morley,doi:10.1016/j.jembe.2012.01.010,N,N,NA,
-Tenebrio molitor,Allen et al 2012,Morley,doi:10.1016/j.jinsphys.2012.01.016,N,N,NA,
-Thamnophis sirtalis,Stewart 1965,Morley,NA,N,N,NA,
-Trachurus japonicus,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,N,N,NA,
-Eleutherodactylus coqui,Christian et al 1998,Morley,NA,N,N,NA,
-Plethodon cylindraceus,Elwood 2003,Morley,NA,N,N,NA,
-Plethodon yonahlossee,Spotila 1972,Morley,NA,N,N,NA,
-Takydromus septentrionalis,Yang et al 2008,Morley,doi: 10.1007/s00360-007-0227-7,N,N,NA,
+Anguilla australis,"Simons, 1984",Morley,NA,N,N,NA,N
+Galaxias maculatus,"Simons, 1984",Morley,NA,N,N,NA,N
+Gambusia affinis,"Simons, 1984",Morley,NA,N,N,NA,N
+Gobiomorphus basalis,"Simons, 1984",Morley,NA,N,N,NA,N
+Gobiomorphus cotidianus,"Simons, 1984",Morley,NA,N,N,NA,N
+Paratya curvirostris,"Simons, 1984",Morley,NA,N,N,NA,N
+Etheostoma nigrum,Smith and Fausch 1997,Morley,doi:10.1577/1548-8659(1997)126<0676:TTAVPO>2.3.CO;2,Y,Y,already have in intratherm,
+Clupea pallasi,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,Y,Y,already have in intratherm,
+Oncorhynchus keta,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,Y,Y,already have in intratherm,
+Trachurus japonicus,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,Y,Y,already have in intratherm,
+Etheostoma blennioides,Hlohowskyj and Wissing 1985,Morley,doi: 10.1139/z85-241,Y,N,NA,Y
+Etheostoma caeruleum,Hlohowskyj and Wissing 1985,Morley,doi: 10.1139/z85-241,Y,N,NA,Y
+Etheostoma flabellare,Hlohowskyj and Wissing 1985,Morley,doi: 10.1139/z85-241,Y,N,NA,Y
+Saduria entomon,Kivivuori and Lagerspetz 1990,Morley,NA,Y,N,NA,Y
+Orconectes rusticus,Layne et al 1987,Morley,doi: 10.1016/0306-4565(87)90001-5,Y,Y,report ARR only,Y
+Crangon crangon,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,Y,N,NA,Y
+Palaemon elegans,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,Y,N,NA,Y
+Palaemon serratus,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,Y,N,NA,Y
+Palaemonetes varians,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,Y,N,NA,Y
+Pandalus montagui,Magozzi & Calosi 2014,Morley,doi: 10.1111/gcb.12695,Y,N,NA,Y
+Orchestia gammarellus,Morritt & Ing_lfsson 2000,Morley,doi: 10.1016/S0022-0981(00)00299-9,Y,Y,duplicate,Y
+Palaemonetes varians,New et al.2014,Morley,doi: 10.1007/s00227-013-2371-9,Y,N,NA,Y
+Portunus pelagicus,Qari 2014,Morley,doi:10.12980/JCLM.2.2014JCLM-2014-0057,Y,N,NA,Y
+Palaemonetes varians,Ravaux et al 2012,Morley,doi: 10.1007/s00360-012-0666-7,Y,N,NA,Y
+Farfantepenaeus aztecus,Re et al 2005,Morley,doi:10.1016/j.jtherbio.2005.09.004,Y,Y,juveniles,Y
+Margarites helicinus,Richard et al 2012,Morley,doi:10.1016/j.jembe.2012.01.010,Y,N,NA,Y
+Serripes groenlandicus,Richard et al 2012,Morley,doi:10.1016/j.jembe.2012.01.010,Y,N,NA,Y
+Strongylocentrotus droebachiensis,Richard et al 2012,Morley,doi:10.1016/j.jembe.2012.01.010,Y,N,NA,Y
+Plethodon glutinosus,Spotila 1972,Morley,NA,Y,N,NA,Y
+Plethodon jordani,Spotila 1972,Morley,NA,Y,N,NA,Y
+Plethodon yonahlossee,Spotila 1972,Morley,NA,Y,N,NA,Y
+Thamnophis sirtalis,Stewart 1965,Morley,NA,N,N,NA,N
+Oplegnathus fasciatus,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,Y,N,NA,Y
+Pagrus major,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,Y,N,NA,Y
+Parapristipoma trilineatum,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,Y,N,NA,Y
+Pseudocaranx dentex,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,Y,N,NA,Y
+Sardinops melanostictus,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,Y,N,NA,Y
+Sillago japonica,Tsuchida 1995,Morley,doi: 10.1016/0306-4565(94)00024-D,Y,N,NA,Y
+Chelydra serpentina,Williamson et al 1989,Morley,doi: 10.1016/0306-4565(89)90027-2,Y,Y,juveniles,Y
+Takydromus septentrionalis,Yang et al 2008,Morley,doi: 10.1007/s00360-007-0227-7,Y,N,NA,Y
