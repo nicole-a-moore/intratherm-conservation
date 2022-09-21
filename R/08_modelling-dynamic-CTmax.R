@@ -32,24 +32,33 @@ saveRDS(pops, "data-processed/population-time-series-with-temps-and-acclim-temps
 
 
 ## read in acclitherm data
-acclitherm <- read_csv("data-processed/acclitherm_after-matching.csv") 
+acclitherm <- read_csv("data-processed/acclitherm_after-matching.csv") %>%
+  filter(parameter_tmax_or_tmin == "tmax") %>%
+  filter(!is.na(acclim_temp)) 
 
 multi_acc <- acclitherm %>% 
-  filter(parameter_tmax_or_tmin == "tmax") %>%
-  filter(!is.na(acclim_temp)) %>%
   group_by(genus_species, population_id) %>% 
   tally() %>%   
   filter(n > 1)
 
-## calculate one acclimation response ratio per species 
+acclitherm <-  acclitherm %>% 
+  filter(population_id %in% c(multi_acc$population_id)) 
+
+## calculate one acclimation response ratio per species
+## do this by calculating population-level ARRs, grouping by species, and averaging slope and intercept
 arr_fits <- acclitherm %>% 
-  filter(parameter_tmax_or_tmin == "tmax") %>% 
-  filter(!is.na(acclim_temp)) %>%
-  filter(population_id %in% c(multi_acc$population_id)) %>% 
-  group_by(genus_species) %>% 
+  group_by(population_id) %>% 
   filter(length(unique(acclim_temp)) > 1) %>%
-  #do(tidy(lm(parameter_value~acclim_temp, data=.))) %>%
-  do(fit = MASS::rlm(parameter_value~acclim_temp, data=.))
+  do(tidy(lm(parameter_value~acclim_temp, data=.))) %>%
+  mutate(genus_species = str_split_fixed(population_id, "\\_", 2)[,1]) %>% 
+  select(-c("p.value", "std.error", "statistic")) %>%
+  spread(key = term, value = estimate) %>%
+  dplyr::rename("intercept" = `(Intercept)`, "ARR_slope" = acclim_temp) %>%
+  group_by(genus_species) %>%
+  mutate(mean_ARR_slope = mean(ARR_slope),
+         mean_intercept = mean(intercept)) %>%
+  select(genus_species, mean_ARR_slope, mean_intercept) %>%
+  unique()
 
 ## bind population dataframes together 
 pops <- bind_rows(pops) %>%
@@ -59,13 +68,23 @@ pops <- bind_rows(pops) %>%
 
 ## model dynamic CTmax by using acclimation response ratios to predict CTmax each day for a given acclimation temperature
 predictions <- pops %>%
-	select(genus_species, acclim_temp, date, temperature, population_id, abundance) %>%
-	group_by(genus_species) %>% 
-	nest() %>% 
-	left_join(., arr_fits) %>% 
-	group_by(genus_species) %>% 
-	do(augment(.$fit[[1]], newdata = .$data[[1]])) %>%
-	rename("dynamicCTmax" = .fitted) 
+  select(genus_species, acclim_temp, date, temperature, population_id, abundance) %>%
+  group_by(genus_species) %>% 
+  left_join(., arr_fits) %>%
+  ## calculate dynamic CTmax 
+  mutate(dynamicCTmax = mean_ARR_slope*acclim_temp + mean_intercept) 
+
+## model static CTmax as the CTmax acclimated to the mean temperature of the location
+predictions = predictions %>%
+  ungroup() %>%
+  group_by(population_id) %>%
+  mutate(mean_acclim_temp = mean(temperature, na.rm = TRUE)) %>%
+  mutate(staticCTmax = mean_ARR_slope*mean_acclim_temp + mean_intercept) %>%
+  select(-mean_acclim_temp)
+
+## save: 
+saveRDS(predictions, "data-processed/population-time-series-with-temps_thermal-data.rds")
+
 
 ##check out each population:
 i = 1
