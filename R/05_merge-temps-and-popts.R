@@ -210,7 +210,14 @@ while(i < length(pops_by_realm)+1) {
         
         vec <- c()
         for (l in pop$sampling_date) {
-          vec = append(vec, loc_temps$date[which.min(abs(l - loc_temps$date))])
+          ## if temp data not available for sampling date, assign NA
+          if(l < min(loc_temps$date) | l > max(loc_temps$date)) {
+            vec = append(vec, NA)
+          }
+          
+          else {
+            vec = append(vec, loc_temps$date[which.min(abs(l - loc_temps$date))])
+          }
         }
         pop$date <- vec
       
@@ -345,7 +352,14 @@ while (i <= length(pops_by_realm)) {
       
       vec <- c()
       for (l in pop$sampling_date) {
-        vec = append(vec, loc_temps$date[which.min(abs(l - loc_temps$date))])
+        ## if temp data not available for sampling date, assign NA
+        if(l < min(loc_temps$date) | l > max(loc_temps$date)) {
+          vec = append(vec, NA)
+        }
+        
+        else {
+          vec = append(vec, loc_temps$date[which.min(abs(l - loc_temps$date))])
+        }
       }
       pop$date <- vec
       pop$year = as.numeric(as.character(pop$year))
@@ -397,6 +411,6 @@ acclitherm <- read.csv("data-processed/acclitherm.csv")
 acclitherm <- filter(acclitherm, genus_species %in% c(lpi_ol$genus_species, biotime_ol$genus_species,
                                                       gpdd_ol$genus_species))
 length(unique(acclitherm$genus_species)) # 170
-length(unique(names(pops_new))) # 1408
+length(unique(names(pops_new))) # 1406
 
 write.csv(acclitherm,"data-processed/acclitherm_after-matching.csv", row.names = FALSE)

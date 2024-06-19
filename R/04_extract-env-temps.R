@@ -441,11 +441,12 @@ temperature_data <- data.frame(matrix(nrow = 14096))
 unique_loc <- 1
 while (unique_loc < nrow(unique_pairs) + 1) {
   print(paste("On population number", unique_loc))
-  time_series <- griddap(info,
-                         time = c("1981-09-01", "2020-04-04"), 
+  time_series <- griddap(datasetx = "ncdcOisst21Agg_LonPM180",
+                         url = "https://coastwatch.pfeg.noaa.gov/erddap/", 
+                         time =  c("1981-09-01T12:00:00Z", "2020-04-04"), 
+                         zlev = c(0, 0),
                          latitude = c(unique_pairs$grid_lat[unique_loc],unique_pairs$grid_lat[unique_loc]),
-                         longitude = c(unique_pairs$grid_lon[unique_loc], unique_pairs$grid_lon[unique_loc]),
-                         url = "https://upwell.pfeg.noaa.gov/erddap/")
+                         longitude = c(unique_pairs$grid_lon[unique_loc], unique_pairs$grid_lon[unique_loc]))
   temps <- time_series$data$sst
   print(paste("Successfully got time series of length", length(temps)))
   
@@ -692,7 +693,7 @@ write.csv(marine_temps, "data-processed/temperature-data/marine_tavg_all.csv", r
 locs_found <- append(colnames(marine_temps)[-1], colnames(freshwater_temps)[-1]) %>%
   append(., colnames(terrestrial_temps[-1]))
 
-with_temps <- filter(all_locs, temp_id %in% locs_found)
+with_temps <- filter(all_locs, temp_id %in% locs_found) 
 length(unique(with_temps$population_id)) # 1557
 length(unique(all_locs$population_id)) # 2052
 

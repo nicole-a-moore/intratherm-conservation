@@ -1,4 +1,25 @@
 genus_species,number_of_populations,database
+ABTO ,1,BioTIME
+ACERALB ,1,BioTIME
+ACWO ,1,BioTIME
+AGEL ,1,BioTIME
+AGWT ,1,BioTIME
+ALNUCRIS ,10,BioTIME
+ALNUTENU ,13,BioTIME
+AMAV ,1,BioTIME
+AMCO ,1,BioTIME
+AMCR ,1,BioTIME
+AMELARB ,1,BioTIME
+AMELCAN ,1,BioTIME
+AMGO ,1,BioTIME
+AMKE ,1,BioTIME
+AMPI ,1,BioTIME
+AMRO ,1,BioTIME
+AMWI ,1,BioTIME
+ANHU ,1,BioTIME
+ATFL ,1,BioTIME
+AUWA ,1,BioTIME
+AWPE ,1,BioTIME
 Abagrotis apposita,1,BioTIME
 Abagrotis baueri,1,BioTIME
 Abagrotis erratica,1,BioTIME
@@ -72,7 +93,6 @@ Abrostola tripartita,1,BioTIME
 Abrostola triplasia,1,BioTIME
 Abrothrix longipilis,1,BioTIME
 Abrothrix olivaceus,1,BioTIME
-ABTO ,1,BioTIME
 Abudefduf bengalensis,62,BioTIME
 Abudefduf lorenzi,3,BioTIME
 Abudefduf notatus,15,BioTIME
@@ -359,7 +379,6 @@ Acer pseudoplatanus,15,BioTIME
 Acer rubrum,50,BioTIME
 Acer saccharum,42,BioTIME
 Acer spicatum,4,BioTIME
-ACERALB ,1,BioTIME
 Aceratium concinnum,2,BioTIME
 Aceratium doggrellii,2,BioTIME
 Aceroides ,2,BioTIME
@@ -736,7 +755,6 @@ Acuminodeutopus naglei,239,BioTIME
 Acupalpus consputus,1,BioTIME
 Acupalpus exiguus,1,BioTIME
 Acupalpus parvulus,1,BioTIME
-ACWO ,1,BioTIME
 Acytolepis puspa,1,BioTIME
 Adaina microdactyla,1,BioTIME
 Adalaria ,1,BioTIME
@@ -934,7 +952,6 @@ Agathosma lanceolata,1,BioTIME
 Agathosma serpyllacea,4,BioTIME
 Agathotoma candidissima,5,BioTIME
 Agatrix smithii,1,BioTIME
-AGEL ,1,BioTIME
 Agelaius phoeniceus,1133,BioTIME
 Agelaius tricolor,13,BioTIME
 Agelas mauritiana,4,BioTIME
@@ -1096,7 +1113,6 @@ Agrotis segetum,1,BioTIME
 Agrotis vancouverensis,1,BioTIME
 Agrotis vestigialis,1,BioTIME
 Agrypnus cordicollis,6,BioTIME
-AGWT ,1,BioTIME
 Ahliesaurs berryi,9,BioTIME
 Ahnfeldtia plicata,27,BioTIME
 Ahnfeltia ,1,BioTIME
@@ -1339,14 +1355,12 @@ Allothyone mexicana,14,BioTIME
 Alloxylon wickhamii,3,BioTIME
 Almyracuma ,7,BioTIME
 Almyracuma proximoculi,47,BioTIME
-ALNUCRIS ,10,BioTIME
 Alnus glutinosa,4,BioTIME
 Alnus incana,2,BioTIME
 Alnus rubra,39,BioTIME
 Alnus sinuata,1,BioTIME
 Alnus sp,1,BioTIME
 Alnus viridis,1,BioTIME
-ALNUTENU ,13,BioTIME
 Aloconota gregaria,1,BioTIME
 Alona ,6,BioTIME
 Alona quadrangularis,1,BioTIME
@@ -1543,7 +1557,6 @@ Amathimysis trigibba,2,BioTIME
 Amauropsis islandica,2,BioTIME
 Amauropsis islandicus,1,BioTIME
 Amaurornis phoenicurus,2,BioTIME
-AMAV ,1,BioTIME
 Amazilia violiceps,1,BioTIME
 Amazilia yucatanensis,1,BioTIME
 Ambassis jacksoniensis,4,BioTIME
@@ -1591,8 +1604,6 @@ Ambystoma opacum,1,BioTIME
 Ambystoma talpoideum,1,BioTIME
 Ambystoma texanum,1,BioTIME
 Ambystoma tigrinum,1,BioTIME
-AMCO ,1,BioTIME
-AMCR ,1,BioTIME
 Ameira ,1,BioTIME
 Ameiurus ,1,BioTIME
 Ameiurus brunneus,15,BioTIME
@@ -1604,8 +1615,6 @@ Ameiurus platycephalus,2,BioTIME
 Amelanchier gravida,1,BioTIME
 Amelanchier laevis,1,BioTIME
 Amelanchier sp,3,BioTIME
-AMELARB ,1,BioTIME
-AMELCAN ,1,BioTIME
 Americamysis ,4,BioTIME
 Americamysis alleni,1,BioTIME
 Americamysis almyra,20,BioTIME
@@ -1618,10 +1627,10 @@ American Coot,1,BioTIME
 American Goldfinch,4,BioTIME
 American Kestrel,3,BioTIME
 American Pipit,1,BioTIME
-American redstart,3,BioTIME
 American Robin,4,BioTIME
-American snowy-sheathbill,1,BioTIME
 American Wigeon,1,BioTIME
+American redstart,3,BioTIME
+American snowy-sheathbill,1,BioTIME
 American woodcock,3,BioTIME
 Americardia guppyi,1,BioTIME
 Americardia media,13,BioTIME
@@ -1643,14 +1652,12 @@ Ameroculodes sp,14,BioTIME
 Ameroculodes sp1,2,BioTIME
 Ameroculodes species,14,BioTIME
 Ametrida centurio,1,BioTIME
-AMGO ,1,BioTIME
 Amia calva,1,BioTIME
 Amichrotus apicipennis,1,BioTIME
 Amischa analis,1,BioTIME
 Amischa bifoveolata,1,BioTIME
 Amischa decipiens,1,BioTIME
 Amischa nigrofusca,1,BioTIME
-AMKE ,1,BioTIME
 Ammochares artifex,4,BioTIME
 Ammocodon chenopoides,1,BioTIME
 Ammodramus bairdii,156,BioTIME
@@ -2040,7 +2047,6 @@ Amphorides amphora,1,BioTIME
 Amphorides sp,1,BioTIME
 Amphoriscidae ,1,BioTIME
 Amphotis marginata,1,BioTIME
-AMPI ,1,BioTIME
 Ampithoe ,74,BioTIME
 Ampithoe gammaroides,4,BioTIME
 Ampithoe helleri,1,BioTIME
@@ -2057,11 +2063,9 @@ Ampithoe sp3,6,BioTIME
 Ampithoe valida,86,BioTIME
 Ampithoidae ,79,BioTIME
 Ampleisca macrocephala,3,BioTIME
-AMRO ,1,BioTIME
 Amusium balloti,277,BioTIME
 Amusium papyraceum,19,BioTIME
 Amusium pleuronectes,257,BioTIME
-AMWI ,1,BioTIME
 Amygdalum ,30,BioTIME
 Amygdalum papyria,1,BioTIME
 Amygdalum papyrium,237,BioTIME
@@ -2373,7 +2377,6 @@ Angulus fabula,7,BioTIME
 Angulus pygmaeus,3,BioTIME
 Angulus squalidus,7,BioTIME
 Angulus tenuis,180,BioTIME
-ANHU ,1,BioTIME
 Aniba megaphylla,1,BioTIME
 Aniba ocotea,1,BioTIME
 Aniba parviflora,1,BioTIME
@@ -3544,13 +3547,13 @@ Aricidea sp3,5,BioTIME
 Aricidea sp4,3,BioTIME
 Aricidea sp5,6,BioTIME
 Aricidea sp8,6,BioTIME
-Aricidea spa,22,BioTIME
 Aricidea spB,21,BioTIME
 Aricidea spC,3,BioTIME
 Aricidea spD,13,BioTIME
 Aricidea spE,1,BioTIME
 Aricidea spF,6,BioTIME
 Aricidea spG,4,BioTIME
+Aricidea spa,22,BioTIME
 Aricidea suecica,399,BioTIME
 Aricidea taylori,457,BioTIME
 Aricidea trilobata,3,BioTIME
@@ -4201,7 +4204,6 @@ Ateleopus sp,1,BioTIME
 Atelomycterus fasciatus,31,BioTIME
 Atelostomata ,1060,BioTIME
 Atennarius striatus,25,BioTIME
-ATFL ,1,BioTIME
 Athanas japonicus,6,BioTIME
 Athanus nitescens,15,BioTIME
 Athecata ,2,BioTIME
@@ -4498,7 +4500,6 @@ Automate sp4,25,BioTIME
 Automate sp6,9,BioTIME
 Autonoe denticarpus,4,BioTIME
 Autonoe longipes,18,BioTIME
-AUWA ,1,BioTIME
 Auxis ,14,BioTIME
 Auxis rochei,7,BioTIME
 Auxis sp,49,BioTIME
@@ -4517,7 +4518,6 @@ Avrainvillea lacerata,23,BioTIME
 Avrainvillea sp1,33,BioTIME
 Avrainvillea sp2,3,BioTIME
 Avrainvillea sp3,1,BioTIME
-AWPE ,1,BioTIME
 Axarus ,15,BioTIME
 Axiidae ,5,BioTIME
 Axinaea sodiroi,1,BioTIME
@@ -4579,6 +4579,52 @@ Azpeitia sp,1,BioTIME
 Azpeitia tabularis,4,BioTIME
 Azurina sp,1,BioTIME
 Azygopus pinnifasciatus,213,BioTIME
+BAEA ,1,BioTIME
+BARS ,1,BioTIME
+BBWD ,1,BioTIME
+BCFL ,1,BioTIME
+BCHU ,1,BioTIME
+BCNH ,1,BioTIME
+BCSP ,1,BioTIME
+BEKI ,1,BioTIME
+BELNEO ,1,BioTIME
+BETH ,1,BioTIME
+BETUGLAN ,1,BioTIME
+BETUNAN ,1,BioTIME
+BETUNANA ,1,BioTIME
+BETUPAP ,9,BioTIME
+BETUPAP1 ,1,BioTIME
+BETUPAP2 ,8,BioTIME
+BETUPAP3 ,18,BioTIME
+BEVI ,1,BioTIME
+BEWR ,1,BioTIME
+BGGN ,1,BioTIME
+BHCO ,1,BioTIME
+BHGR ,1,BioTIME
+BLACRU,2,BioTIME
+BLGR ,1,BioTIME
+BLJA ,1,BioTIME
+BLPH ,1,BioTIME
+BLVU ,1,BioTIME
+BNST ,1,BioTIME
+BNSW ,1,BioTIME
+BRBL ,1,BioTIME
+BRCR ,1,BioTIME
+BROC ,1,BioTIME
+BRPE ,1,BioTIME
+BRSP ,1,BioTIME
+BRTH ,1,BioTIME
+BRTI ,1,BioTIME
+BRYOPH,1,BioTIME
+BTGN ,1,BioTIME
+BTSP ,1,BioTIME
+BTYW ,1,BioTIME
+BUFF ,1,BioTIME
+BUOR ,1,BioTIME
+BUOW ,1,BioTIME
+BUSH ,1,BioTIME
+BWTE ,1,BioTIME
+BWWA ,1,BioTIME
 Baccaurea courtallensis,1,BioTIME
 Baccaurea griffithii,1,BioTIME
 Baccaurea kunstleri,1,BioTIME
@@ -4642,7 +4688,6 @@ Badister dilatatus,1,BioTIME
 Badister nakayamai,4,BioTIME
 Badister peltatus,1,BioTIME
 Badister pictus,1,BioTIME
-BAEA ,1,BioTIME
 Baeolophus bicolor,2,BioTIME
 Baeolophus inornatus,20,BioTIME
 Baeolophus ridgwayi,10,BioTIME
@@ -4787,7 +4832,6 @@ Barleeia tincta,2,BioTIME
 Barleeia unifasciata,11,BioTIME
 Barn Swallow,1,BioTIME
 Barnacle,6,BioTIME
-barnacle ,33,BioTIME
 Barnacle sp1,44,BioTIME
 Barnea ,9,BioTIME
 Barnea candida,32,BioTIME
@@ -4800,7 +4844,6 @@ Barringtonia calyptrata,2,BioTIME
 Barringtonia fusiformis,1,BioTIME
 Barringtonia macrostachya,1,BioTIME
 Barringtonia pendula,1,BioTIME
-BARS ,1,BioTIME
 Bartramia ithyphylla,1,BioTIME
 Bartramia longicauda,225,BioTIME
 Bartsia alpina,13,BioTIME
@@ -5044,11 +5087,6 @@ Bayerius ,1,BioTIME
 Bayerius arnoldi,11,BioTIME
 Bazzania trilobata,1,BioTIME
 Bbenthosaurus grallator,2,BioTIME
-BBWD ,1,BioTIME
-BCFL ,1,BioTIME
-BCHU ,1,BioTIME
-BCNH ,1,BioTIME
-BCSP ,1,BioTIME
 Beania asymmetrica,22,BioTIME
 Beania bilaminata,11,BioTIME
 Beania cribrimorpha,4,BioTIME
@@ -5094,7 +5132,6 @@ Beilschmiedia tooram,5,BioTIME
 Beilschmiedia tovarensis,1,BioTIME
 Beilschmiedia volckii,1,BioTIME
 Beilschmiedia wightii,1,BioTIME
-BEKI ,1,BioTIME
 Bela ,1,BioTIME
 Belenesox belizanus,18,BioTIME
 Bell's vireo,1,BioTIME
@@ -5111,7 +5148,6 @@ Bellocia koefoedi,10,BioTIME
 Bellocia michaelsarsi,3,BioTIME
 Bellotia eriophorum,12,BioTIME
 Bells Vireo,1,BioTIME
-BELNEO ,1,BioTIME
 Belonastrum berolinensis,1,BioTIME
 Belone belone,9,BioTIME
 Belonidae ,22,BioTIME
@@ -5236,9 +5272,7 @@ Bestiolina similis,149,BioTIME
 Bestiolina sp,72,BioTIME
 Betaeus ensenadensis,1,BioTIME
 Betaeus longidactylus,1,BioTIME
-BETH ,1,BioTIME
 Betonica officinalis,1,BioTIME
-BETUGLAN ,1,BioTIME
 Betula alleghaniensis,9,BioTIME
 Betula glandulosa,3,BioTIME
 Betula nana,21,BioTIME
@@ -5247,24 +5281,13 @@ Betula pendula,28,BioTIME
 Betula populifolia,1,BioTIME
 Betula pubescens,1,BioTIME
 Betula sp,2,BioTIME
-BETUNAN ,1,BioTIME
-BETUNANA ,1,BioTIME
-BETUPAP ,9,BioTIME
-BETUPAP1 ,1,BioTIME
-BETUPAP2 ,8,BioTIME
-BETUPAP3 ,18,BioTIME
-BEVI ,1,BioTIME
 Bewicks Wren,1,BioTIME
-BEWR ,1,BioTIME
 Bezzia ,6,BioTIME
 Bezzia sp,1,BioTIME
-BGGN ,1,BioTIME
 Bhagadatta austenia,1,BioTIME
 Bhawania goodei,34,BioTIME
 Bhawania heteroseta,273,BioTIME
-BHCO ,1,BioTIME
 Bhesa paniculata,1,BioTIME
-BHGR ,1,BioTIME
 Bibasis sp,1,BioTIME
 Bibasis vasutana,1,BioTIME
 Bibloporus bicolor,3,BioTIME
@@ -5362,8 +5385,8 @@ Blaberidae sp,1,BioTIME
 Blachia umbellata,1,BioTIME
 Black Phoebe,1,BioTIME
 Black-Belled storm-petrel,1,BioTIME
-Black-billed cuckoo,2,BioTIME
 Black-Browed albatross,1,BioTIME
+Black-billed cuckoo,2,BioTIME
 Black-capped chickadee,4,BioTIME
 Black-chinned Hummingbird,1,BioTIME
 Black-chinned Sparrow,1,BioTIME
@@ -5374,7 +5397,6 @@ Black-tailed Gnatcatcher,1,BioTIME
 Black-throated Gray-Warbler,1,BioTIME
 Black-throated Sparrow,1,BioTIME
 Blackbird unidentified,72,BioTIME
-BLACRU,2,BioTIME
 Blade kelp juv,8,BioTIME
 Blady red sp,39,BioTIME
 Blakea eriocalyx,1,BioTIME
@@ -5420,13 +5442,10 @@ Blepharostoma trichophyllum,2,BioTIME
 Blepherita satura,1,BioTIME
 Blepsias bilobus,135,BioTIME
 Bleptina caradrinalis,1,BioTIME
-BLGR ,1,BioTIME
 Blicca bjoerkna,32,BioTIME
 Blidingia ,12,BioTIME
 Blidingia marginata,8,BioTIME
 Blidingia minima,66,BioTIME
-BLJA ,1,BioTIME
-BLPH ,1,BioTIME
 Blue Grosbeak,1,BioTIME
 Blue jay,5,BioTIME
 Blue petrel,1,BioTIME
@@ -5437,9 +5456,6 @@ Blue-winged warbler,1,BioTIME
 Blumeodendron calophyllum,1,BioTIME
 Blumeodendron subrotundifolium,1,BioTIME
 Blumeodendron tokbrai,1,BioTIME
-BLVU ,1,BioTIME
-BNST ,1,BioTIME
-BNSW ,1,BioTIME
 Bobartia filiformis,6,BioTIME
 Bobartia gladiata,16,BioTIME
 Bobartia indica,4,BioTIME
@@ -5908,8 +5924,6 @@ Brassicaceae ,1,BioTIME
 Bratislavia unidentada,2,BioTIME
 Bratislavia unidentata,5,BioTIME
 Braya purpurascens,1,BioTIME
-BRBL ,1,BioTIME
-BRCR ,1,BioTIME
 Bregmaceros ,3,BioTIME
 Bregmaceros arabicus,11,BioTIME
 Bregmaceros atlanticus,23,BioTIME
@@ -5968,7 +5982,6 @@ Briza subaristata,1,BioTIME
 Briza uniolae,1,BioTIME
 Broad-billed Hummingbird,1,BioTIME
 Broad-tailed Hummingbird,1,BioTIME
-BROC ,1,BioTIME
 Brockmanniella brockmannii,1,BioTIME
 Brombya platynema,7,BioTIME
 Bromus erectus,1,BioTIME
@@ -5998,10 +6011,6 @@ Brown skua,1,BioTIME
 Brown thrasher,3,BioTIME
 Brown-crested Flycatcher,1,BioTIME
 Brown-headed Cowbird,4,BioTIME
-BRPE ,1,BioTIME
-BRSP ,1,BioTIME
-BRTH ,1,BioTIME
-BRTI ,1,BioTIME
 Bruceiella globulus,1,BioTIME
 Bruceiella wareni,4,BioTIME
 Brundinia meridionalis,1,BioTIME
@@ -6015,7 +6024,6 @@ Bryconamericus stramineus,6,BioTIME
 Bryocalyx sp,1,BioTIME
 Bryocaulon divergens,6,BioTIME
 Bryoerythrophyllum recurvirostre,1,BioTIME
-BRYOPH,1,BioTIME
 Bryopsis ,63,BioTIME
 Bryopsis corticulans,4,BioTIME
 Bryopsis corymbosa,2,BioTIME
@@ -6041,9 +6049,6 @@ Bryum argenteum,1,BioTIME
 Bryum sp,2,BioTIME
 Bryx dunckeri,5,BioTIME
 Bryx sp,1,BioTIME
-BTGN ,1,BioTIME
-BTSP ,1,BioTIME
-BTYW ,1,BioTIME
 Bubbia semecarpoides,4,BioTIME
 Bubo bubo,1,BioTIME
 Bubo spec,1,BioTIME
@@ -6081,7 +6086,6 @@ Buchnera americana,2,BioTIME
 Buckinghamia celsissima,4,BioTIME
 Buellia griseovirens,3,BioTIME
 Buenia jeffreysii,3,BioTIME
-BUFF ,1,BioTIME
 Buffhamia speciosa,1,BioTIME
 Buffonellaria biavicularis,16,BioTIME
 Buffonellaria depressa,10,BioTIME
@@ -6150,14 +6154,11 @@ Bunchosia pallescens,1,BioTIME
 Bunodactis stella,5,BioTIME
 Bunodactis texaensis,1,BioTIME
 Bunodosoma ,4,BioTIME
-BUOR ,1,BioTIME
-BUOW ,1,BioTIME
 Bupalus piniaria,1,BioTIME
 Bupleurum fruticescens,1,BioTIME
 Buprestidae,1,BioTIME
 Bursa granularis,2,BioTIME
 Bursa thersites,7,BioTIME
-BUSH ,1,BioTIME
 Bushia ,12,BioTIME
 Bushia elegans,31,BioTIME
 Bushia sp1,11,BioTIME
@@ -6189,8 +6190,6 @@ Buteo regalis,20,BioTIME
 Buteo swainsoni,119,BioTIME
 Butorides striata,6,BioTIME
 Butorides virescens,2,BioTIME
-BWTE ,1,BioTIME
-BWWA ,1,BioTIME
 Byasa alcinous,1,BioTIME
 Byasa crassipes,1,BioTIME
 Byblis ,59,BioTIME
@@ -6227,6 +6226,43 @@ Bythograeidae ,3,BioTIME
 Bythotrephes longimanus,1,BioTIME
 Bythotrephes longimanusa,3,BioTIME
 Byturus tomentosus,1,BioTIME
+CACT1 ,1,BioTIME
+CACW ,1,BioTIME
+CAEG ,1,BioTIME
+CAGO ,1,BioTIME
+CAKI ,1,BioTIME
+CANT ,1,BioTIME
+CANV ,1,BioTIME
+CANW ,1,BioTIME
+CAVI ,1,BioTIME
+CBHA ,1,BioTIME
+CBTH ,1,BioTIME
+CCLO ,1,BioTIME
+CEDW ,1,BioTIME
+CHGO ,1,BioTIME
+CHSP ,1,BioTIME
+CIMA ,1,BioTIME
+CITE ,1,BioTIME
+CLETACU ,1,BioTIME
+CLSW ,1,BioTIME
+COCK ,1,BioTIME
+COFL ,1,BioTIME
+COGD ,1,BioTIME
+COGO ,1,BioTIME
+COHA ,1,BioTIME
+COHU ,1,BioTIME
+COLO ,1,BioTIME
+COME ,1,BioTIME
+COMO ,1,BioTIME
+CONI ,1,BioTIME
+COPO ,1,BioTIME
+CORA ,1,BioTIME
+COSN ,1,BioTIME
+COYE ,1,BioTIME
+CRTH ,1,BioTIME
+CRUBLA,2,BioTIME
+CRULIC,2,BioTIME
+CYT cunner/yellowtail,10,BioTIME
 Cabera erythemaria,1,BioTIME
 Cabera exanthemata,1,BioTIME
 Cabera pusaria,1,BioTIME
@@ -6253,9 +6289,7 @@ Cabira incerta,149,BioTIME
 Cabralea canjerana,5,BioTIME
 Caccobius jessoensis,3,BioTIME
 Cacospongia sp,6,BioTIME
-CACT1 ,1,BioTIME
 Cactus Wren,1,BioTIME
-CACW ,1,BioTIME
 Cacyreus marshalli,1,BioTIME
 Cadlina laevis,106,BioTIME
 Cadlina nigrobranchiata,2,BioTIME
@@ -6312,7 +6346,6 @@ Caecum spb,20,BioTIME
 Caecum strigosum,1,BioTIME
 Caecum trachea,4,BioTIME
 Caecum vestitum,18,BioTIME
-CAEG ,1,BioTIME
 Caelorinchus acanthiger,17,BioTIME
 Caelorinchus acutirostris,2,BioTIME
 Caelorinchus aspercephalus,2331,BioTIME
@@ -6358,8 +6391,6 @@ Caesio xanthonota,22,BioTIME
 Caesioperca lepidoptera,107,BioTIME
 Caesioperca rasor,23,BioTIME
 Caesioscorpis theagenes,8,BioTIME
-CAGO ,1,BioTIME
-CAKI ,1,BioTIME
 Cakile edentula,1,BioTIME
 Calamagrostis arundinacea,2,BioTIME
 Calamagrostis canadensis,1,BioTIME
@@ -7039,7 +7070,6 @@ Caneosphaera molischi,1,BioTIME
 Caneosphaera molischii,55,BioTIME
 Caniformia ,161,BioTIME
 Cannabis sativa,1,BioTIME
-CANT ,1,BioTIME
 Cantharid ,192,BioTIME
 Cantharidae ,9,BioTIME
 Cantharis cryptica,1,BioTIME
@@ -7086,8 +7116,6 @@ Canthocalanus pauper,373,BioTIME
 Canthocalanus sp,7,BioTIME
 Canthocamptus staphylinus,1,BioTIME
 Cantrainea jamsteci,7,BioTIME
-CANV ,1,BioTIME
-CANW ,1,BioTIME
 Canyon Towhee,1,BioTIME
 Canyon Wren,1,BioTIME
 Capaila sp,1,BioTIME
@@ -7717,7 +7745,6 @@ Caulophrynidae ,1,BioTIME
 Cauloramphus cymbaeformis,11,BioTIME
 Cauloramphus spiniferum,9,BioTIME
 Cavanillesia platanifolia,1,BioTIME
-CAVI ,1,BioTIME
 Cavolina ,2,BioTIME
 Cavolina tricuspidata,1,BioTIME
 Cavolina tridentata,3,BioTIME
@@ -7731,10 +7758,7 @@ Cavolinia longirostris,20,BioTIME
 Cavolinia sp,6,BioTIME
 Cavoliniidae ,110,BioTIME
 Caymanostella phorcynis,1,BioTIME
-CBHA ,1,BioTIME
 Cbloeia flava,1,BioTIME
-CBTH ,1,BioTIME
-CCLO ,1,BioTIME
 Ceanothus americanus,1,BioTIME
 Ceanothus herbaceus,1,BioTIME
 Cebidichthys violaceous,1,BioTIME
@@ -7761,7 +7785,6 @@ Cedrela montana,1,BioTIME
 Cedrela odorata,1,BioTIME
 Cedrelinga cateriformis,1,BioTIME
 Cedrella fissilis,1,BioTIME
-CEDW ,1,BioTIME
 Ceiba pentandra,1,BioTIME
 Ceiba speciosa,3,BioTIME
 Celaena haworthii,1,BioTIME
@@ -8331,6 +8354,8 @@ Chaerophyllum villarsii,1,BioTIME
 Chaetaster latus,5,BioTIME
 Chaetaster nodosus,5,BioTIME
 Chaetoceros ,78,BioTIME
+Chaetoceros Hyalochaete,280,BioTIME
+Chaetoceros Phaeoceros,493,BioTIME
 Chaetoceros abnormis,1,BioTIME
 Chaetoceros aequatorialis,6,BioTIME
 Chaetoceros affinis,136,BioTIME
@@ -8373,7 +8398,6 @@ Chaetoceros fragilis,2,BioTIME
 Chaetoceros furcellatus,92,BioTIME
 Chaetoceros gracilis,1,BioTIME
 Chaetoceros holsaticus,9,BioTIME
-Chaetoceros Hyalochaete,280,BioTIME
 Chaetoceros ingolfianum,13,BioTIME
 Chaetoceros ingolfianus,1,BioTIME
 Chaetoceros invisibilis,2,BioTIME
@@ -8393,7 +8417,6 @@ Chaetoceros pelagicus,16,BioTIME
 Chaetoceros pendulus,119,BioTIME
 Chaetoceros perpusillus,14,BioTIME
 Chaetoceros peruvianus,313,BioTIME
-Chaetoceros Phaeoceros,493,BioTIME
 Chaetoceros protuberans,3,BioTIME
 Chaetoceros pseudocrinitus,10,BioTIME
 Chaetoceros pseudocurvisetus,13,BioTIME
@@ -8563,14 +8586,14 @@ Chaetozone sp4,5,BioTIME
 Chaetozone sp51,1,BioTIME
 Chaetozone sp71,3,BioTIME
 Chaetozone sp72,40,BioTIME
-Chaetozone spa,26,BioTIME
-Chaetozone spb,21,BioTIME
-Chaetozone spc,9,BioTIME
-Chaetozone spd,17,BioTIME
 Chaetozone spE,1,BioTIME
 Chaetozone spF,2,BioTIME
 Chaetozone spG,7,BioTIME
 Chaetozone spH,2,BioTIME
+Chaetozone spa,26,BioTIME
+Chaetozone spb,21,BioTIME
+Chaetozone spc,9,BioTIME
+Chaetozone spd,17,BioTIME
 Chaetozone spinosa,5,BioTIME
 Chaetozone vivipara,11,BioTIME
 Chaetura pelagica,358,BioTIME
@@ -8879,7 +8902,6 @@ Chevalia sp1,2,BioTIME
 Chevalia sp2,20,BioTIME
 Chevreulia acuminata,1,BioTIME
 Chevreuxiella sp,22,BioTIME
-CHGO ,1,BioTIME
 Chiarella jaschnowi,1,BioTIME
 Chiasmia clathrata,1,BioTIME
 Chiasmodon ,5,BioTIME
@@ -9445,7 +9467,6 @@ Chrysozephyrus smaragdinus,1,BioTIME
 Chrysymenia ,23,BioTIME
 Chrysymenia kairnbachii,1,BioTIME
 Chrysymenia sp,4,BioTIME
-CHSP ,1,BioTIME
 Chtenopteryx sicula,2,BioTIME
 Chthamalidae ,3,BioTIME
 Chthamalus ,25,BioTIME
@@ -9493,7 +9514,6 @@ Ciliopagurus strigatus,10,BioTIME
 Ciliophora ,5,BioTIME
 Cilix gkaucata,1,BioTIME
 Cilunculus cactoides,2,BioTIME
-CIMA ,1,BioTIME
 Cima minima,3,BioTIME
 Cinachyrella australiensis,44,BioTIME
 Cinachyrella sp1,30,BioTIME
@@ -9685,7 +9705,6 @@ Cistenides regalis,2,BioTIME
 Cisticola juncidis,68,BioTIME
 Cistothorus palustris,116,BioTIME
 Cistothorus platensis,87,BioTIME
-CITE ,1,BioTIME
 Citharexylum solanaceum,1,BioTIME
 Citharichthys ,107,BioTIME
 Citharichthys arctifrons,8013,BioTIME
@@ -9923,7 +9942,6 @@ Clerodendrum deflexum,1,BioTIME
 Clerodendrum laevifolium,1,BioTIME
 Clerodendrum nutans,1,BioTIME
 Clerodendrum viscosum,1,BioTIME
-CLETACU ,1,BioTIME
 Clethra scabra,6,BioTIME
 Clethrionomys gapperi,3,BioTIME
 Clethrionomys rutilus,1,BioTIME
@@ -10027,7 +10045,6 @@ Closterium acutum,1,BioTIME
 Closterium gracile,2,BioTIME
 Closterium moniliferum,2,BioTIME
 Closterium sp,1,BioTIME
-CLSW ,1,BioTIME
 Clubiona portoricensis,1,BioTIME
 Clunio ,4,BioTIME
 Clunio marshalli,4,BioTIME
@@ -10196,7 +10213,6 @@ Cochylis nana,1,BioTIME
 Cochylis posterana,1,BioTIME
 Cociella crocodila,1,BioTIME
 Cociella hutchinsi,32,BioTIME
-COCK ,1,BioTIME
 Cockatiel ,1,BioTIME
 Codakia ,9,BioTIME
 Codakia costata,8,BioTIME
@@ -10303,11 +10319,6 @@ Coenonympha tullia,1,BioTIME
 Coereba flaveola,1,BioTIME
 Coffea arabica,1,BioTIME
 Coffea sp,1,BioTIME
-COFL ,1,BioTIME
-COGD ,1,BioTIME
-COGO ,1,BioTIME
-COHA ,1,BioTIME
-COHU ,1,BioTIME
 Cojoba rufescens,1,BioTIME
 Colaconema daviesii,18,BioTIME
 Colanthura ,2,BioTIME
@@ -10388,7 +10399,6 @@ Collotheca pelagica,1,BioTIME
 Collotheca sp,5,BioTIME
 Collozoum ,11,BioTIME
 Colluricincla harmonica,2,BioTIME
-COLO ,1,BioTIME
 Colobonema sericeum,95,BioTIME
 Colobonema sp,1,BioTIME
 Coloconger cadenati,2,BioTIME
@@ -10461,24 +10471,22 @@ Comanthus trichoptera,62,BioTIME
 Comarum palustre,9,BioTIME
 Comatula purpurea,4,BioTIME
 Comatulida ,8,BioTIME
-COME ,1,BioTIME
 Commelina erecta,1,BioTIME
 Commensodorum commensalis,5,BioTIME
 Commersonia bartramia,2,BioTIME
 Common Black-Hawk,1,BioTIME
 Common Canary,1,BioTIME
+Common Ground-Dove,1,BioTIME
+Common Poorwill,1,BioTIME
+Common Raven,1,BioTIME
+Common Snipe,1,BioTIME
+Common Yellowthroat,4,BioTIME
 Common crow,3,BioTIME
 Common diving-petrel,1,BioTIME
 Common flicker,4,BioTIME
 Common grackle,1,BioTIME
-Common Ground-Dove,1,BioTIME
 Common nighthawk,1,BioTIME
-Common Poorwill,1,BioTIME
-Common Raven,1,BioTIME
 Common redpoll,1,BioTIME
-Common Snipe,1,BioTIME
-Common Yellowthroat,4,BioTIME
-COMO ,1,BioTIME
 Compound tunicate,39,BioTIME
 Compressidens ophiodon,1,BioTIME
 Compressidens pressus,16,BioTIME
@@ -10611,7 +10619,6 @@ Congiopodus coriaceus,112,BioTIME
 Congridae ,217,BioTIME
 Congriscus megastomus,1,BioTIME
 Congrogadus spinifer,33,BioTIME
-CONI ,1,BioTIME
 Conica ,2,BioTIME
 Conidae ,12,BioTIME
 Conilera ,1,BioTIME
@@ -10759,10 +10766,8 @@ Copilia mirabilis,107,BioTIME
 Copilia quadrata,21,BioTIME
 Copilia sp,62,BioTIME
 Copilia vitrea,1,BioTIME
-COPO ,1,BioTIME
 Coppingeria longisetosa,1,BioTIME
 Coppingeria sp,1,BioTIME
-CORA ,1,BioTIME
 Coradion altivelis,107,BioTIME
 Coradion chrysozonus,829,BioTIME
 Coragyps atratus,137,BioTIME
@@ -11089,7 +11094,6 @@ Cosmonotus grayi,9,BioTIME
 Cosmopterigidae sp,1,BioTIME
 Cosmopterix lienigiella,1,BioTIME
 Cosmorhoe ocellata,1,BioTIME
-COSN ,1,BioTIME
 Cossoninae,1,BioTIME
 Cossoninae ,1,BioTIME
 Cossura ,192,BioTIME
@@ -11150,7 +11154,6 @@ Coussarea curvigemmia,1,BioTIME
 Coussarea hydrangeifolia,1,BioTIME
 Coutarea hexandra,8,BioTIME
 Couthouyella striatula,8,BioTIME
-COYE ,1,BioTIME
 Crabeater seal,1,BioTIME
 Crambus heringiellus,1,BioTIME
 Crambus lathoniellus,1,BioTIME
@@ -11401,8 +11404,6 @@ Crotophaga sulcirostris,1,BioTIME
 Crouania ,8,BioTIME
 Crouania attenuata,5,BioTIME
 Crouania sp,2,BioTIME
-CRTH ,1,BioTIME
-CRUBLA,2,BioTIME
 Crucibulum ,22,BioTIME
 Crucibulum auricula,33,BioTIME
 Crucibulum spinosum,4,BioTIME
@@ -11414,7 +11415,6 @@ Crucigenia tetrapedia,4,BioTIME
 Crucigera ,1,BioTIME
 Crucigera zygophora,1,BioTIME
 Crudia curtisii,1,BioTIME
-CRULIC,2,BioTIME
 Cruoria ,20,BioTIME
 Cruoria cruoriaeformis,12,BioTIME
 Cruoria pellita,43,BioTIME
@@ -12295,7 +12295,6 @@ Cystoseira nodicaulis,16,BioTIME
 Cystoseira osmundacea,7,BioTIME
 Cystoseira osmundaceae,25,BioTIME
 Cystoseira tamariscifolia,34,BioTIME
-CYT cunner/yellowtail,10,BioTIME
 Cythere dawsoni,2,BioTIME
 Cythere lutea,1,BioTIME
 Cythereis ,20,BioTIME
@@ -12330,6 +12329,13 @@ Cyttus hololepis,1,BioTIME
 Cyttus novaezealandiae,1670,BioTIME
 Cyttus roseus,1,BioTIME
 Cyttus traversi,5541,BioTIME
+DCCO ,1,BioTIME
+DEALIT,1,BioTIME
+DEJU ,1,BioTIME
+DIC,2,BioTIME
+DISDIC,2,BioTIME
+DODU ,1,BioTIME
+DOGO ,1,BioTIME
 Dacne bipustulata,1,BioTIME
 Dacodraco hunteri,28,BioTIME
 Dacrila fallax,1,BioTIME
@@ -12531,9 +12537,6 @@ Daturella emarginata,1,BioTIME
 Daucus carota,6,BioTIME
 Davidsonia pruriens,3,BioTIME
 Dawsonius latispina,4,BioTIME
-DCCO ,1,BioTIME
-dead wood,1,BioTIME
-DEALIT,1,BioTIME
 Deania calcea,7011,BioTIME
 Deania profundorum,1,BioTIME
 Deania quadrispinosa,24,BioTIME
@@ -12543,8 +12546,8 @@ Decamastus ,14,BioTIME
 Decamastus gracilis,213,BioTIME
 Decamastus gracilis?,7,BioTIME
 Decamastus sp1,40,BioTIME
-Decamastus spa,1,BioTIME
 Decamastus spA,1,BioTIME
+Decamastus spa,1,BioTIME
 Decapod ,837,BioTIME
 Decapoda,168,BioTIME
 Decapoda ,2694,BioTIME
@@ -12585,7 +12588,6 @@ Deilocerus decorus,11,BioTIME
 Deilocerus planus,6,BioTIME
 Deima validum,1,BioTIME
 Deinopsis erosa,1,BioTIME
-DEJU ,1,BioTIME
 Deleaster dichrous,1,BioTIME
 Delectopecten ,1,BioTIME
 Delectopecten greenlandicus,3,BioTIME
@@ -12771,12 +12773,12 @@ Dentalium vallicolens,8,BioTIME
 Dentatisyllis carolinae,109,BioTIME
 Dentatisyllis sp2,7,BioTIME
 Dentatisyllis sp5,1,BioTIME
+Dentex Maroccanus,7,BioTIME
 Dentex abei,1,BioTIME
 Dentex dentex,4,BioTIME
 Dentex gibbosus,5,BioTIME
 Dentex macrophtalmus,4,BioTIME
 Dentex macrophthalmus,19,BioTIME
-Dentex Maroccanus,7,BioTIME
 Dentex sp,6,BioTIME
 Dentex tumifrons,65,BioTIME
 Denticollis rubens,12,BioTIME
@@ -13102,7 +13104,6 @@ Diazona violacea,34,BioTIME
 Dibaeis baeomyces,4,BioTIME
 Dibranchus ,7,BioTIME
 Dibranchus atlanticus,173,BioTIME
-DIC,2,BioTIME
 Dicallomera pudibunda,1,BioTIME
 Dicathais orbita,81,BioTIME
 Dicentrarchus labrax,31,BioTIME
@@ -13656,7 +13657,6 @@ Discostella stelligera,4,BioTIME
 Discoteuthis discus,1,BioTIME
 Discoteuthis laciniosa,1,BioTIME
 Discradisca sp,7,BioTIME
-DISDIC,2,BioTIME
 Disintegrated fish-unidentifable,124,BioTIME
 Dispanopeus texanus,6,BioTIME
 Disparago anomala,3,BioTIME
@@ -13751,9 +13751,7 @@ Dodecaceria sp,7,BioTIME
 Dodecaceria sp1,26,BioTIME
 Dodecamastus mariaensis,1,BioTIME
 Dodona ouida,1,BioTIME
-DODU ,1,BioTIME
 Doederleinia berycoides,12,BioTIME
-DOGO ,1,BioTIME
 Dolabella auricularia,6,BioTIME
 Dolabella sp1,31,BioTIME
 Dolabella sp2,13,BioTIME
@@ -14167,6 +14165,11 @@ Dytaster felli,1,BioTIME
 Dytaster grandis,1,BioTIME
 Dytaster pedicellaris,2,BioTIME
 EAGR ,1,BioTIME
+ECDO ,1,BioTIME
+ELEA ,1,BioTIME
+EMPI ,1,BioTIME
+ERIST,1,BioTIME
+EUST ,1,BioTIME
 Eana incanana,1,BioTIME
 Eared Grebe,1,BioTIME
 Earias clorana,1,BioTIME
@@ -14196,7 +14199,6 @@ Ebalia tumefacta,14,BioTIME
 Ebinania sp,38,BioTIME
 Ebria sp,2,BioTIME
 Ebria tripartita,56,BioTIME
-ECDO ,1,BioTIME
 Ecdyonurus spec.,1,BioTIME
 Echelus myrus,15,BioTIME
 Echelus pachyrhynchus,3,BioTIME
@@ -14522,7 +14524,6 @@ Elateridae ,22,BioTIME
 Elateriospermum tapos,1,BioTIME
 Elates ransonnetii,184,BioTIME
 Elattostachys megalantha,1,BioTIME
-ELEA ,1,BioTIME
 Electra ,2,BioTIME
 Electra arctica,2,BioTIME
 Electra bellula,10,BioTIME
@@ -14680,7 +14681,6 @@ Emmotum nitens,3,BioTIME
 Emperor penguin,1,BioTIME
 Empetrum hermaphroditum,1,BioTIME
 Empetrum nigrum,27,BioTIME
-EMPI ,1,BioTIME
 Empididae ,1,BioTIME
 Empididae sp1,1,BioTIME
 Empididae sp2,1,BioTIME
@@ -14728,8 +14728,8 @@ Encoptolophus sp,4,BioTIME
 Encoptolophus subgracilis,3,BioTIME
 Encrasicholina heteroloba,4,BioTIME
 Encrasicholina punctifer,6,BioTIME
-Encrusting brown,2,BioTIME
 Encrusting Bryozoan sp,40,BioTIME
+Encrusting brown,2,BioTIME
 Encrusting coralline sp,41,BioTIME
 Encrusting corallines,9,BioTIME
 Encrusting red algae,7,BioTIME
@@ -15338,7 +15338,6 @@ Erirhininae sp,1,BioTIME
 Erisphex aniarus,4,BioTIME
 Erisphex pottii,5,BioTIME
 Erisphex simplex,2,BioTIME
-ERIST,1,BioTIME
 Eritettix simplex,14,BioTIME
 Erithacus rubecula,32,BioTIME
 Erkenia subaequiciliata,3,BioTIME
@@ -16405,7 +16404,6 @@ Euspira nitida,3,BioTIME
 Euspira pallida,53,BioTIME
 Euspira pulchella,115,BioTIME
 Euspira triseriata,266,BioTIME
-EUST ,1,BioTIME
 Eustomias ,17,BioTIME
 Eustomias bibulbosus,1,BioTIME
 Eustomias bigelowi,1,BioTIME
@@ -16611,6 +16609,12 @@ Exuviaella sp,15,BioTIME
 Exuviella ,2,BioTIME
 Eyakia robusta,13,BioTIME
 FAB,2,BioTIME
+FEHA ,1,BioTIME
+FOLLIC,1,BioTIME
+FOR,1,BioTIME
+FRULIC,1,BioTIME
+FUN,2,BioTIME
+FUNGI,2,BioTIME
 Fabaceae ,2,BioTIME
 Fabaceae  ,1,BioTIME
 Fabia concharum,1,BioTIME
@@ -16819,7 +16823,6 @@ Favorinus blianus,5,BioTIME
 Favorinus branchialis,13,BioTIME
 Favorinus tsuruganus,1,BioTIME
 Favosipora candida,18,BioTIME
-FEHA ,1,BioTIME
 Felaniella sowerbyi,24,BioTIME
 Felenaria maculata,1,BioTIME
 Fellaster zelandiae,1,BioTIME
@@ -17087,6 +17090,7 @@ Flustrellidra ,1,BioTIME
 Flustrellidra hispida,224,BioTIME
 Flustridae ,1,BioTIME
 Flycatcher unidentified,63,BioTIME
+FoLich2,1,BioTIME
 Foa brachygramma,7,BioTIME
 Foa brachygramma?,16,BioTIME
 Foa fo,17,BioTIME
@@ -17096,12 +17100,9 @@ Foetorepus agassizii,99,BioTIME
 Foetorepus calauropomus,16,BioTIME
 Foetorepus dagmare,14,BioTIME
 Foetorepus phasis,1,BioTIME
-FoLich2,1,BioTIME
 Foliose ind,2,BioTIME
-FOLLIC,1,BioTIME
 Fomitopsis pinicola,21,BioTIME
 Fontainea picrosperma,1,BioTIME
-FOR,1,BioTIME
 Foraminifera ,674,BioTIME
 Foraminiferida ,673,BioTIME
 Forb,1,BioTIME
@@ -17184,7 +17185,6 @@ Freyastera sp,1,BioTIME
 Freyella echinata,13,BioTIME
 Freyella elegans,1,BioTIME
 Freyella felleyra,1,BioTIME
-frgu ,1,BioTIME
 Fridericia ,1,BioTIME
 Frigidalvania janmayeni,2,BioTIME
 Frigidoalvania cruenta,7,BioTIME
@@ -17210,7 +17210,6 @@ Fritziana fissilis,19,BioTIME
 Fromia monilis,18,BioTIME
 Fromia pacifica,16,BioTIME
 Fromia polypora,23,BioTIME
-FRULIC,1,BioTIME
 Fucaceae ,39,BioTIME
 Fucales ,1,BioTIME
 Fucus ,133,BioTIME
@@ -17234,7 +17233,6 @@ Fulvia sp5,8,BioTIME
 Fulvia undatopicta,47,BioTIME
 Fumana ericoides,1,BioTIME
 Fumana thymifolia,1,BioTIME
-FUN,2,BioTIME
 Funastrum crispum,1,BioTIME
 Funastrum cynanchoides,1,BioTIME
 Funchalia danae,3,BioTIME
@@ -17246,7 +17244,6 @@ Fundulus confluentus,31,BioTIME
 Fundulus diaphanus,1,BioTIME
 Fundulus notatus,2,BioTIME
 Fundulus seminolis,1,BioTIME
-FUNGI,2,BioTIME
 Fungi mushro,2,BioTIME
 Fungia ,98,BioTIME
 Fungia fungites,3,BioTIME
@@ -17284,6 +17281,24 @@ Fusitriton ,1,BioTIME
 Fusitriton magellanicus,248,BioTIME
 Fusitriton oregonensis,55,BioTIME
 Fusopsis ,1,BioTIME
+GADW ,1,BioTIME
+GAQU ,1,BioTIME
+GBHE ,1,BioTIME
+GELLIC,1,BioTIME
+GHJU ,1,BioTIME
+GHOW ,1,BioTIME
+GIFL ,1,BioTIME
+GIWO ,1,BioTIME
+GLIB ,1,BioTIME
+GRAEQU,1,BioTIME
+GREG ,1,BioTIME
+GRFL ,1,BioTIME
+GRHE ,1,BioTIME
+GRRO ,1,BioTIME
+GRYE ,1,BioTIME
+GTGR ,1,BioTIME
+GTTO ,1,BioTIME
+GWTL ,1,BioTIME
 Gabrielona sulcifera,1,BioTIME
 Gabriola dyari,1,BioTIME
 Gadella ,2,BioTIME
@@ -17302,7 +17317,6 @@ Gadomus longifilis,16,BioTIME
 Gadus macrocephalus,3569,BioTIME
 Gadus morhua,46286,BioTIME
 Gadus ogac,542,BioTIME
-GADW ,1,BioTIME
 Gaeotis nigrolineata,1,BioTIME
 Gaertnera oblanceolata,1,BioTIME
 Gaetanus ,53,BioTIME
@@ -17521,7 +17535,6 @@ Gandalfus yunohana,32,BioTIME
 Ganonema farinosum,4,BioTIME
 Ganua mottleyana,1,BioTIME
 Ganua sp1,1,BioTIME
-GAQU ,1,BioTIME
 Garcinia atroviridis,1,BioTIME
 Garcinia bancana,1,BioTIME
 Garcinia eugenifolia,1,BioTIME
@@ -17640,7 +17653,6 @@ Gazelletta hexanema,1,BioTIME
 Gazza achlamys,1,BioTIME
 Gazza minuta,96,BioTIME
 Gazza sp,1,BioTIME
-GBHE ,1,BioTIME
 Gegenes pumilio,1,BioTIME
 Geissanthus bogotensis,1,BioTIME
 Geissanthus occidentalis,1,BioTIME
@@ -17677,7 +17689,6 @@ Gelidium robustum,23,BioTIME
 Gelidium sesquipedale,3,BioTIME
 Gelidium sp,7,BioTIME
 Gelidium spinosum,71,BioTIME
-GELLIC,1,BioTIME
 Gellidium sp,4,BioTIME
 Gelliodes sp1,36,BioTIME
 Gelliodes sp3,1,BioTIME
@@ -17808,8 +17819,6 @@ Geum glaciale,1,BioTIME
 Geum montanum,12,BioTIME
 Geum rivale,2,BioTIME
 Gevuina bleasdalei,3,BioTIME
-GHJU ,1,BioTIME
-GHOW ,1,BioTIME
 Gibberosus ,5,BioTIME
 Gibberosus devaneyi,1,BioTIME
 Gibberosus myersi,66,BioTIME
@@ -17830,7 +17839,6 @@ Gibsmithia dotyi,5,BioTIME
 Gibsmithia hawaiiensis,69,BioTIME
 Gibsmithia sp,4,BioTIME
 Giffordia granulosa,4,BioTIME
-GIFL ,1,BioTIME
 Gigantactis ,3,BioTIME
 Gigantactis sp,17,BioTIME
 Gigantactis vanhoeffeni,2,BioTIME
@@ -17889,7 +17897,6 @@ Gitanopsis sp2,1,BioTIME
 Gitanopsis spb,2,BioTIME
 Gitanopsis tortugae,10,BioTIME
 Gitanopsis vilordes,1,BioTIME
-GIWO ,1,BioTIME
 Glabropilumnus seminudus,8,BioTIME
 Gladioferens inermis,2,BioTIME
 Gladioferens pectinatus,7,BioTIME
@@ -17924,7 +17931,6 @@ Glenodinium quadridens,2,BioTIME
 Glenodinium rotundum,2,BioTIME
 Glenodinium sp,50,BioTIME
 Glia prolifera,1,BioTIME
-GLIB ,1,BioTIME
 Glischrochilus quadripunctatus,14,BioTIME
 Globicephala ,8,BioTIME
 Globicephala macrorhynchus,330,BioTIME
@@ -18424,7 +18430,6 @@ Gracilaria veleroa,1,BioTIME
 Gracilariacea sp,9,BioTIME
 Gracilechinus multidentatus,361,BioTIME
 Gracillaria syringella,1,BioTIME
-GRAEQU,1,BioTIME
 Graffenrieda cucullata,1,BioTIME
 Grahamichthys radiatus,1,BioTIME
 Grahamina sp,15,BioTIME
@@ -18510,9 +18515,9 @@ Grateloupia sp,1,BioTIME
 Grateloupia sparsa,1,BioTIME
 Graus nigra,5,BioTIME
 Gravitarmata margarotana,1,BioTIME
-Gray catbird,3,BioTIME
 Gray Flycatcher,1,BioTIME
 Gray Vireo,1,BioTIME
+Gray catbird,3,BioTIME
 Gray-headed Junco,1,BioTIME
 Great Blue-Heron,1,BioTIME
 Great Egret,1,BioTIME
@@ -18524,9 +18529,8 @@ Greater Roadrunner,1,BioTIME
 Greater Yellowlegs,1,BioTIME
 Green Heron,1,BioTIME
 Green staining,13,BioTIME
-Green_filamentous_algae ,1,BioTIME
 Green-tailed Towhee,1,BioTIME
-GREG ,1,BioTIME
+Green_filamentous_algae ,1,BioTIME
 Gregariella coralliophaga,7,BioTIME
 Gregarinidra inarmata,6,BioTIME
 Gregarinidra serrata,45,BioTIME
@@ -18543,8 +18547,6 @@ Grewia orbiculata,1,BioTIME
 Grewia tiliifolia,1,BioTIME
 Grey lichens,165,BioTIME
 Grey-Headed albatross,1,BioTIME
-GRFL ,1,BioTIME
-GRHE ,1,BioTIME
 Grias cauliflora,1,BioTIME
 Griffithsia ,13,BioTIME
 Griffithsia bornetiana,28,BioTIME
@@ -18560,7 +18562,6 @@ Grindelia squarrosa,2,BioTIME
 Grinnellia americana,137,BioTIME
 Gromia sp,1,BioTIME
 Grouse unidentified,40,BioTIME
-GRRO ,1,BioTIME
 Grubeopolynoe sp11,1,BioTIME
 Grubeosyllis ,4,BioTIME
 Grubeosyllis clavata,58,BioTIME
@@ -18579,13 +18580,10 @@ Grubia compta,4,BioTIME
 Grus canadensis,267,BioTIME
 Grus grus,1,BioTIME
 Grusonia clavata,4,BioTIME
-GRYE ,1,BioTIME
 Gryllidae,1,BioTIME
 Gryllinae sp1,1,BioTIME
 Gryllinae sp2,1,BioTIME
 Gryllus undet,1,BioTIME
-GTGR ,1,BioTIME
-GTTO ,1,BioTIME
 Guaiagorgia sp1,10,BioTIME
 Guaiagorgia sp2,9,BioTIME
 Guaiagorgia sp3,7,BioTIME
@@ -18634,7 +18632,6 @@ Gustavia fosteri,1,BioTIME
 Gustavia superba,2,BioTIME
 Gutierrezia sarothrae,6,BioTIME
 Gutierrezia wrightii,2,BioTIME
-GWTL ,1,BioTIME
 Gwynia capsula,3,BioTIME
 Gygis alba,16,BioTIME
 Gygis candida,1,BioTIME
@@ -18832,6 +18829,18 @@ Gyrosigma fasciola,8,BioTIME
 Gyrosigma sp,14,BioTIME
 Gyrosigma tennuissimum,21,BioTIME
 H4B fourbeard,4,BioTIME
+HAFL ,1,BioTIME
+HAWO ,1,BioTIME
+HEP,2,BioTIME
+HETH ,1,BioTIME
+HEWA ,1,BioTIME
+HOFI ,1,BioTIME
+HOLA ,1,BioTIME
+HOME ,1,BioTIME
+HOOR ,1,BioTIME
+HOSP ,1,BioTIME
+HOWR ,1,BioTIME
+HRSH ,1,BioTIME
 Haber speciosus,17,BioTIME
 Habrophlebia fusca,1,BioTIME
 Habrophlebia lauta,1,BioTIME
@@ -18880,7 +18889,6 @@ Haemulon sciurus,168,BioTIME
 Haemulon sp,71,BioTIME
 Haemulon striatum,107,BioTIME
 Haemulon unknown,112,BioTIME
-HAFL ,1,BioTIME
 Hahnia emesti,1,BioTIME
 Hairy woodpecker,5,BioTIME
 Halacaridae,1,BioTIME
@@ -19488,7 +19496,6 @@ Havelockia scabra,254,BioTIME
 Havelockia sp2,2,BioTIME
 Hawaianira peleae,6,BioTIME
 Hawk unidentified,29,BioTIME
-HAWO ,1,BioTIME
 Hazeus sp,7,BioTIME
 Hebella pocillum,1,BioTIME
 Hebomoia glaucippe,1,BioTIME
@@ -19730,7 +19737,6 @@ Henriettea succosa,1,BioTIME
 Henrya ,4,BioTIME
 Henrya morrisoni,1,BioTIME
 Henslow's sparrow,1,BioTIME
-HEP,2,BioTIME
 Hepatus ,10,BioTIME
 Hepatus epheliticus,20,BioTIME
 Hepatus sp,1,BioTIME
@@ -19977,11 +19983,9 @@ Heteroteuthis serventyi,10,BioTIME
 Heteroteuthis sp,11,BioTIME
 Heterothalamus psiadioides,1,BioTIME
 Heteroxenotrichula squamosa,1,BioTIME
-HETH ,1,BioTIME
 Hevea benthamiana,1,BioTIME
 Hevea brasiliensis,1,BioTIME
 Hevea sp,1,BioTIME
-HEWA ,1,BioTIME
 Hexacorallia ,46,BioTIME
 Hexactinellida ,9,BioTIME
 Hexagenia ,17,BioTIME
@@ -20240,9 +20244,7 @@ Hodometrica prolixa,2,BioTIME
 Hoffmannseggia drepanocarpa,2,BioTIME
 Hoffmannseggia glauca,2,BioTIME
 Hoffmannseggia glauca ,1,BioTIME
-HOFI ,1,BioTIME
 Hofmannophila pseudospretella,1,BioTIME
-HOLA ,1,BioTIME
 Holacanthus bermudensis,221,BioTIME
 Holacanthus ciliaris,108,BioTIME
 Holacanthus sp,10,BioTIME
@@ -20326,7 +20328,6 @@ Homarus ,561,BioTIME
 Homarus americanus,15231,BioTIME
 Homarus gammarus,127,BioTIME
 Homaxinella subdola,4,BioTIME
-HOME ,1,BioTIME
 Homeryon ,1,BioTIME
 Homoeonema platygonon,3,BioTIME
 Homoeosoma nebulella,1,BioTIME
@@ -20345,7 +20346,6 @@ Homorthodes hanhami,1,BioTIME
 Homorthodes sp,1,BioTIME
 Homostolus acer,8,BioTIME
 Hooded Oriole,1,BioTIME
-HOOR ,1,BioTIME
 Hopea dryobalanoides,1,BioTIME
 Hopea mengarawan,1,BioTIME
 Hopea ponga,1,BioTIME
@@ -20408,7 +20408,6 @@ Horsfieldia sumatrana,1,BioTIME
 Horsfieldia superba,1,BioTIME
 Horsfieldia tomentosa,1,BioTIME
 Horsfieldia wallichii,1,BioTIME
-HOSP ,1,BioTIME
 Hourglass dolphin,1,BioTIME
 House Finch,1,BioTIME
 House Sparrow,3,BioTIME
@@ -20419,8 +20418,6 @@ Howella brodiei,87,BioTIME
 Howella sherborni,3,BioTIME
 Howella sp,3,BioTIME
 Howella zina,4,BioTIME
-HOWR ,1,BioTIME
-HRSH ,1,BioTIME
 Huaca caspi,1,BioTIME
 Huenia proteus,28,BioTIME
 Humboldtia brunonis,1,BioTIME
@@ -20561,7 +20558,6 @@ Hydroclathrus clathratus,13,BioTIME
 Hydrocotyle exigua,1,BioTIME
 Hydrocotyle vulgaris,1,BioTIME
 Hydroglyphus geminus,1,BioTIME
-hydroid ,4,BioTIME
 Hydroida,2,BioTIME
 Hydroida ,27,BioTIME
 Hydroides ,84,BioTIME
@@ -20910,8 +20906,9 @@ Hyrtios sp8,3,BioTIME
 Hyrtios sp9,5,BioTIME
 Hyssuridae ,29,BioTIME
 Hyssuridae sp1,4,BioTIME
-Iago garricki,5,BioTIME
 IAMbrix salsala,1,BioTIME
+INDO ,1,BioTIME
+Iago garricki,5,BioTIME
 Ianthella basta,9,BioTIME
 Ianthella dying,4,BioTIME
 Ianthella flabelliformis,4,BioTIME
@@ -21080,8 +21077,6 @@ Imantonia rotunda,1,BioTIME
 Imantonia sp,2,BioTIME
 Immergentia sp,1,BioTIME
 Imogine exiguus,17,BioTIME
-imonia sp1,1,BioTIME
-imonia sp2,1,BioTIME
 Imparfinis mirini,1,BioTIME
 Imparfinis schubarti,5,BioTIME
 Imshaugia aleurites,4,BioTIME
@@ -21107,7 +21102,6 @@ Indigofera candolleana,1,BioTIME
 Indigofera cassioides,1,BioTIME
 Indigofera glomerata,5,BioTIME
 Indigofera sarmentosa,1,BioTIME
-INDO ,1,BioTIME
 Inegocia guttata,1,BioTIME
 Inegocia harrisii,103,BioTIME
 Inegocia japonica,321,BioTIME
@@ -21165,7 +21159,6 @@ Inodrillia carpenteri,3,BioTIME
 Inopidae ,1,BioTIME
 Inopsetta ischyra,7,BioTIME
 Inovicellina ,1,BioTIME
-input8_GENUS input8_SPECIES,1,BioTIME
 Inquisitor sp1,13,BioTIME
 Inquisitor sp3,1,BioTIME
 Inquisitor sp311,1,BioTIME
@@ -21420,6 +21413,7 @@ Ixora venulosa,2,BioTIME
 Ixora warmingii,1,BioTIME
 Ixoreus naevius,2240,BioTIME
 Izanami inermis,97,BioTIME
+JUVI ,1,BioTIME
 Jacaranda brasiliana,1,BioTIME
 Jacaranda copaia,2,BioTIME
 Jacaranda micrantha,3,BioTIME
@@ -21593,9 +21587,9 @@ Junonia orythia,1,BioTIME
 Jupiteria minuta,35,BioTIME
 Justicia ovata,15,BioTIME
 Justicia sp,1,BioTIME
-JUVI ,1,BioTIME
 Juxtamusium coudeini,7,BioTIME
 Jynx torquilla,30,BioTIME
+KILL ,1,BioTIME
 Kali ,3,BioTIME
 Kali indica,7,BioTIME
 Kali macrodon,5,BioTIME
@@ -21701,7 +21695,6 @@ Kibatalia maingayi,1,BioTIME
 Kiefferulus ,1,BioTIME
 Kielmeyera coriacea,1,BioTIME
 Kielmeyera speciosa,1,BioTIME
-KILL ,1,BioTIME
 Killdeer ,1,BioTIME
 Killer whale,1,BioTIME
 Kinberginereis inermis,68,BioTIME
@@ -21825,6 +21818,29 @@ Kyphosus sectatrix,6,BioTIME
 Kyphosus sp,25,BioTIME
 Kyphosus sydneyanus,76,BioTIME
 Kyphosus vaigiensis,38,BioTIME
+LABU ,1,BioTIME
+LAGO ,1,BioTIME
+LARB ,1,BioTIME
+LARILAR2 ,1,BioTIME
+LARILAR3 ,2,BioTIME
+LASP ,1,BioTIME
+LBCU ,1,BioTIME
+LBDO ,1,BioTIME
+LBHE ,1,BioTIME
+LBWO ,1,BioTIME
+LCR,2,BioTIME
+LEALIV,2,BioTIME
+LEGO ,1,BioTIME
+LENI ,1,BioTIME
+LESA ,1,BioTIME
+LESC ,1,BioTIME
+LEWO ,1,BioTIME
+LEYE ,1,BioTIME
+LIRITUL ,1,BioTIME
+LISP ,1,BioTIME
+LIVERLE,2,BioTIME
+LOSH ,1,BioTIME
+LUWA ,1,BioTIME
 Labidesthes sicculus,11,BioTIME
 Labidocera ,1,BioTIME
 Labidocera acuta,91,BioTIME
@@ -21872,7 +21888,6 @@ Labrus bimaculatus,98,BioTIME
 Labrus merula,2,BioTIME
 Labrus mixtus,144,BioTIME
 Labrus viridis,3,BioTIME
-LABU ,1,BioTIME
 Lacanobia contigua,1,BioTIME
 Lacanobia lilacina,1,BioTIME
 Lacanobia liquida,1,BioTIME
@@ -22017,7 +22032,6 @@ Laginocarpus rigidus,2,BioTIME
 Lagis bocki,2,BioTIME
 Lagis koreni,202,BioTIME
 Lagisca extenuata,1,BioTIME
-LAGO ,1,BioTIME
 Lagocephalus gloveri,10,BioTIME
 Lagocephalus inermis,333,BioTIME
 Lagocephalus laevigatus,87,BioTIME
@@ -22199,11 +22213,8 @@ Lappula occidentalis,5,BioTIME
 Lappula redowskii,1,BioTIME
 Lappula sp,1,BioTIME
 Laqueus californianus,3,BioTIME
-LARB ,1,BioTIME
 Larentia clavaria,1,BioTIME
 Laridae ,3540,BioTIME
-LARILAR2 ,1,BioTIME
-LARILAR3 ,2,BioTIME
 Larimichthys crocea,1,BioTIME
 Larimus breviceps,4,BioTIME
 Larimus fasciatus,465,BioTIME
@@ -22262,7 +22273,6 @@ Lasiommata megera,1,BioTIME
 Lasionycta perplexa,1,BioTIME
 Lasiurus blossevillii,1,BioTIME
 Lasiurus ega,2,BioTIME
-LASP ,1,BioTIME
 Laspeyria flexula,1,BioTIME
 Lataxiena fimbriata,11,BioTIME
 Laternula anatina,1,BioTIME
@@ -22323,11 +22333,6 @@ Lauterbornia sp,2,BioTIME
 Lavius collurio,1,BioTIME
 Laxosuberites ,3,BioTIME
 Lazuli Bunting,1,BioTIME
-LBCU ,1,BioTIME
-LBDO ,1,BioTIME
-LBHE ,1,BioTIME
-LBWO ,1,BioTIME
-LCR,2,BioTIME
 Le Contes-Thrasher,1,BioTIME
 Leachia ,7,BioTIME
 Leachia atlantica,2,BioTIME
@@ -22336,7 +22341,6 @@ Leaena ,1,BioTIME
 Leaena abranchiata,2,BioTIME
 Leaena sp,2,BioTIME
 Leaena videns,3,BioTIME
-LEALIV,2,BioTIME
 Leander ,5,BioTIME
 Leander tenuicornis,5,BioTIME
 Leandra dichotoma,1,BioTIME
@@ -22378,7 +22382,6 @@ Ledum decumbens,3,BioTIME
 Ledum palustre,3,BioTIME
 Leersia hexandra,11,BioTIME
 Leersia oryzoides,1,BioTIME
-LEGO ,1,BioTIME
 Leguminosae Leguminosae,1,BioTIME
 Leiaster leachi,1,BioTIME
 Leiaster sp1,15,BioTIME
@@ -22461,7 +22464,6 @@ Lembos unifasciatus,86,BioTIME
 Lembos websteri,34,BioTIME
 Lemnalia sp1,5,BioTIME
 Lemnalia sp2,2,BioTIME
-LENI ,1,BioTIME
 Lenisquilla lata,11,BioTIME
 Lenormandiopsis latifolia,24,BioTIME
 Lenormandiopsis lorentzii,184,BioTIME
@@ -22862,8 +22864,6 @@ Lerista elegans,9,BioTIME
 Lerista lineopunctulata,4,BioTIME
 Lerista praepedita,10,BioTIME
 Lernaeocera branchialis,1,BioTIME
-LESA ,1,BioTIME
-LESC ,1,BioTIME
 Lespedeza capitata,1,BioTIME
 Lespedeza hirta,1,BioTIME
 Lespedeza stuevei,1,BioTIME
@@ -23053,12 +23053,10 @@ Levinsenia spA,20,BioTIME
 Levinsenia uncinata,11,BioTIME
 Leviprora inops,7,BioTIME
 Levisquilla jurichi,5,BioTIME
-LEWO ,1,BioTIME
 Lexias pardalis,1,BioTIME
 Leydigia ,1,BioTIME
 Leydigia acanthocercoides,1,BioTIME
 Leydigia quadrangularis,1,BioTIME
-LEYE ,1,BioTIME
 Liachirus melanospilos,7,BioTIME
 Liagora ,74,BioTIME
 Liagore rubromaculata,75,BioTIME
@@ -23390,7 +23388,6 @@ Lirceus lineatus,2,BioTIME
 Lirceus spa,1,BioTIME
 Liriope tetraphylla,3,BioTIME
 Liripora pseudosarniensis,2,BioTIME
-LIRITUL ,1,BioTIME
 Lirobittium ,16,BioTIME
 Lirobittium attenuatum,3,BioTIME
 Lirobittium sp,34,BioTIME
@@ -23399,7 +23396,6 @@ Lirularia lirulata,11,BioTIME
 Lirularia parcipicta,2,BioTIME
 Lischkeia ottoi,7,BioTIME
 Lisoporcellana sp3194,27,BioTIME
-LISP ,1,BioTIME
 Lissa chiraga,1,BioTIME
 Lissocarcinus orbicularis,7,BioTIME
 Lissocarcinus polybioides,10,BioTIME
@@ -23574,7 +23570,6 @@ Littorininae ,9,BioTIME
 Littorophiloscia richardsonae,5,BioTIME
 Littorophiloscia vittata,1,BioTIME
 Liv1,1,BioTIME
-LIVERLE,2,BioTIME
 Liverwort,1,BioTIME
 Liverwort aneura,2,BioTIME
 Liverwort lealiv,4,BioTIME
@@ -23761,7 +23756,6 @@ Lordithon sp,12,BioTIME
 Loricariichthys platymetopon,3,BioTIME
 Loricera pilicornis,1,BioTIME
 Loripes lucinalis,6,BioTIME
-LOSH ,1,BioTIME
 Lota lota,3,BioTIME
 Lotella rhacina,54,BioTIME
 Lotella rhacinus,1,BioTIME
@@ -24083,7 +24077,6 @@ Lutraria lutraria,43,BioTIME
 Lutraria magna,2,BioTIME
 Lutrogale perspicillata,4,BioTIME
 Luvarus sp,1,BioTIME
-LUWA ,1,BioTIME
 Luxilus chrysocephalus,1,BioTIME
 Luxilus coccogenis,169,BioTIME
 Luxilus coccoogenis,1,BioTIME
@@ -24265,7 +24258,19 @@ Lythrum salicaria,2,BioTIME
 Lythrypnus dalli,22,BioTIME
 Lythrypnus nesiotes,4,BioTIME
 Lytocarpia myriophyllum,15,BioTIME
+MACRO,2,BioTIME
+MALL ,1,BioTIME
+MAWA ,1,BioTIME
+MAWR ,1,BioTIME
+MERL ,1,BioTIME
+MGWA ,1,BioTIME
+MOBL ,1,BioTIME
+MOCH ,1,BioTIME
+MODO ,1,BioTIME
+MPLEUR,2,BioTIME
+MYRIGALE ,1,BioTIME
 Mabea fistulifera,1,BioTIME
+MacGillivrays Warbler,1,BioTIME
 Macaca fuscata,12,BioTIME
 Macandrewella sp,2,BioTIME
 Macandrewia azorica,1,BioTIME
@@ -24285,7 +24290,6 @@ Macaroni penguin,1,BioTIME
 Macdunnoughia confusa,1,BioTIME
 Macellicephalinae ,2,BioTIME
 Macellicephaloides ,4,BioTIME
-MacGillivrays Warbler,1,BioTIME
 Machaeranthera canescens,2,BioTIME
 Machaeranthera gracilis,2,BioTIME
 Machaeranthera pinnatifida,4,BioTIME
@@ -24338,7 +24342,6 @@ Macoma tageliformis,8,BioTIME
 Macoma tenta,471,BioTIME
 Macoma torelli,4,BioTIME
 Macoma yoldiformis,88,BioTIME
-MACRO,2,BioTIME
 Macrobrachium ohione,1,BioTIME
 Macrocallista maculata,47,BioTIME
 Macrocallista nimbosa,15,BioTIME
@@ -24624,7 +24627,6 @@ Maldanidae ,2087,BioTIME
 Maldanidae spA,5,BioTIME
 Maldanidae spD,3,BioTIME
 Maldaninae ,4,BioTIME
-MALL ,1,BioTIME
 Mallard ,1,BioTIME
 Malletia ,1,BioTIME
 Malletia faba,1,BioTIME
@@ -24910,9 +24912,7 @@ Maurolicus muelleri,398,BioTIME
 Maurolicus mulleri,61,BioTIME
 Maurolicus stehmanni,23,BioTIME
 Maurolicus weitzmani,620,BioTIME
-MAWA ,1,BioTIME
 Mawatarius inexpectabilis,1,BioTIME
-MAWR ,1,BioTIME
 Maxacteon flammea,2,BioTIME
 Maxillicosta scabriceps,2,BioTIME
 Maxillopoda ,1,BioTIME
@@ -25387,7 +25387,6 @@ Meristotheca ,1,BioTIME
 Meristotheca coacta,2,BioTIME
 Meristotheca papulosa,2,BioTIME
 Meristotheca procumbens,4,BioTIME
-MERL ,1,BioTIME
 Merlangius merlangus,979,BioTIME
 Merlin ,1,BioTIME
 Merluccius ,22,BioTIME
@@ -25633,7 +25632,6 @@ Mexicope sp1,5,BioTIME
 Mexieulepis elongatus,8,BioTIME
 Mexieulepis weberi,23,BioTIME
 Mezzettia leptopoda,1,BioTIME
-MGWA ,1,BioTIME
 Miagrammotes animotus,1,BioTIME
 Miamira magnifica,4,BioTIME
 Micarea prasina,2,BioTIME
@@ -26062,9 +26060,7 @@ Mniotype adusta,1,BioTIME
 Mniotype ducta,1,BioTIME
 Mnium blyttii,1,BioTIME
 Mnium sp,2,BioTIME
-MOBL ,1,BioTIME
 Mobunula bicuspis,32,BioTIME
-MOCH ,1,BioTIME
 Mockingbird ,2,BioTIME
 Mocosoa crebripunctata,11,BioTIME
 Modiolarca impacta,2,BioTIME
@@ -26093,7 +26089,6 @@ Modisimus montanus,1,BioTIME
 Modisimus signatus,1,BioTIME
 Modisimus sp,1,BioTIME
 Modismus sexoculatus,1,BioTIME
-MODO ,1,BioTIME
 Modulidae ,1,BioTIME
 Modulus ,1,BioTIME
 Modulus carchedonius,7,BioTIME
@@ -26510,7 +26505,6 @@ Moxostoma macrolepidotum,2,BioTIME
 Moxostoma microlepidotum,1,BioTIME
 Moxostoma sp,7,BioTIME
 Moxostoma valenciennesi,2,BioTIME
-MPLEUR,2,BioTIME
 Mucrogammarus mucronatus,5,BioTIME
 Mucronella abyssicola,10,BioTIME
 Mucronella immersa,1,BioTIME
@@ -26889,7 +26883,6 @@ Myriapora coarctata,1,BioTIME
 Myrichthys breviceps,1,BioTIME
 Myrichthys magnificus,3,BioTIME
 Myrichthys ocellatus,9,BioTIME
-MYRIGALE ,1,BioTIME
 Myrine kesslerii,107,BioTIME
 Myriocarpa longipes,1,BioTIME
 Myriochele ,11,BioTIME
@@ -27056,7 +27049,17 @@ Myzia oblongoguttata,1,BioTIME
 Myzobdella lugubris,5,BioTIME
 Myzopsetta proboscidea,1,BioTIME
 Myzostomum cirriferum,1,BioTIME
-"NA/unknown ",1,BioTIME
+NA/unknown ,1,BioTIME
+NAWA ,1,BioTIME
+NECO ,1,BioTIME
+NEPPEL,2,BioTIME
+NOCA ,1,BioTIME
+NOFL ,1,BioTIME
+NOHA ,1,BioTIME
+NOMO ,1,BioTIME
+NOPI ,1,BioTIME
+NRWS ,1,BioTIME
+NSHO ,1,BioTIME
 Nacaduba kurava,1,BioTIME
 Nacaduba sp,1,BioTIME
 Naccaria wiggii,22,BioTIME
@@ -27275,7 +27278,6 @@ Navicula tripunctata,4,BioTIME
 Navicula vanhoeffenii,38,BioTIME
 Navicula viridula,6,BioTIME
 Naviculaceae ,47,BioTIME
-"NAWA ",1,BioTIME
 Naxoides carnarvon,18,BioTIME
 Naxoides hirta,1,BioTIME
 Naxoides sp024302,1,BioTIME
@@ -27317,7 +27319,6 @@ Nebria sadona,3,BioTIME
 Nebria saeviens,1,BioTIME
 Nebris microps,183,BioTIME
 Nebrius ferrugineus,24,BioTIME
-NECO ,1,BioTIME
 Necora puber,371,BioTIME
 Necrobia ruficollis,1,BioTIME
 Necrobia rufipes,1,BioTIME
@@ -27661,8 +27662,8 @@ Neopomacentrus cyanomus,38,BioTIME
 Neopomacentrus miryae,1,BioTIME
 Neopomacentrus violascens,2,BioTIME
 Neopontonides beaufortensis,4,BioTIME
-Neoptilota densa,6,BioTIME
 Neoptilota Ptilota Rhodoptilum Pterosiphonia sp,21,BioTIME
+Neoptilota densa,6,BioTIME
 Neorhabdocoelida ,3,BioTIME
 Neorhodomela aculeata,1,BioTIME
 Neorhodomela munita,1,BioTIME
@@ -27813,7 +27814,6 @@ Nephtys squamosa,104,BioTIME
 Nephus bipunctatus,1,BioTIME
 Nephytys neotena,1,BioTIME
 Nephytys sp,1,BioTIME
-NEPPEL,2,BioTIME
 Neptis alwina,1,BioTIME
 Neptis ananta,1,BioTIME
 Neptis clinia,1,BioTIME
@@ -28154,7 +28154,6 @@ Nitzschia subacicularis,2,BioTIME
 Nitzschia tenuirostris,61,BioTIME
 Nitzschia tryblionella,4,BioTIME
 No present,28,BioTIME
-NOCA ,1,BioTIME
 Noccaea caerulescens,1,BioTIME
 Nocomis biguttatus,1,BioTIME
 Nocomis micropogon,180,BioTIME
@@ -28178,8 +28177,6 @@ Nodularia sp,9,BioTIME
 Nodynus leucofasciatus,1,BioTIME
 Noemiamea dolioliformis,1,BioTIME
 Noetia ponderosa,32,BioTIME
-NOFL ,1,BioTIME
-NOHA ,1,BioTIME
 Nola confusalis,1,BioTIME
 Nola cuculatella,1,BioTIME
 Nola minna,1,BioTIME
@@ -28191,11 +28188,9 @@ Nolella stipata,11,BioTIME
 Nolina microcarpa,2,BioTIME
 Nomeidae ,9,BioTIME
 Nomeus gronovii,12,BioTIME
-NOMO ,1,BioTIME
 Nomophila noctuella,1,BioTIME
 Nomotettix cristatus,1,BioTIME
 Nonagria typhae,1,BioTIME
-NOPI ,1,BioTIME
 Normanbya normanbyi,2,BioTIME
 Normanion quadrimanus,1,BioTIME
 Normichthys operosa,25,BioTIME
@@ -28208,10 +28203,10 @@ Northern Flicker,1,BioTIME
 Northern Harrier,1,BioTIME
 Northern Mockingbird,1,BioTIME
 Northern Oriole,2,BioTIME
-Northern parula-warbler,1,BioTIME
 Northern Pintail,1,BioTIME
 Northern Rough-winged-Swallow,1,BioTIME
 Northern Shoveler,1,BioTIME
+Northern parula-warbler,1,BioTIME
 Nostoc sp,1,BioTIME
 Notacanthidae ,6,BioTIME
 Notacanthus ,3,BioTIME
@@ -28390,8 +28385,6 @@ Novaquesta trifurcata,9,BioTIME
 Novodinia ,1,BioTIME
 Novodinia novaezealandiae,23,BioTIME
 Nozeba ,1,BioTIME
-NRWS ,1,BioTIME
-NSHO ,1,BioTIME
 Nucella lapillus,509,BioTIME
 Nuchequula mannusella,1,BioTIME
 Nuchequula nuchalis,4,BioTIME
@@ -28570,6 +28563,10 @@ Nymphonella tapetis,2,BioTIME
 Nymphonidae ,1,BioTIME
 Nymphopsis duodorsospinosa,1,BioTIME
 Nyssa sylvatica,1,BioTIME
+OCWA ,1,BioTIME
+ORJU ,1,BioTIME
+OSPR ,1,BioTIME
+OVEN ,1,BioTIME
 Oarisma garita,15,BioTIME
 Obelia ,338,BioTIME
 Obelia bicuspidata,7,BioTIME
@@ -28713,7 +28710,6 @@ Octotemnus glabriculus,1,BioTIME
 Oculina diffusa,10,BioTIME
 Oculina tenella,13,BioTIME
 Oculosetella gracilis,12,BioTIME
-OCWA ,1,BioTIME
 Ocypode ,1,BioTIME
 Ocypode quadrata,1,BioTIME
 Ocypodidae ,1,BioTIME
@@ -29692,11 +29688,11 @@ Order Foraminiferida,5,BioTIME
 Order Harpacticoida,33,BioTIME
 Order Hymenoptera,3,BioTIME
 Order Isopoda,56,BioTIME
-Order lsopoda,12,BioTIME
 Order Myodocopida,23,BioTIME
 Order Mysidacea,50,BioTIME
 Order Podocopa,1,BioTIME
 Order Trichoptera,1,BioTIME
+Order lsopoda,12,BioTIME
 Oreaster reticulatus,4,BioTIME
 Orectolobus halei,26,BioTIME
 Orectolobus japonicus,2,BioTIME
@@ -29724,7 +29720,6 @@ Oriolus chinensis,1,BioTIME
 Oriolus oriolus,4,BioTIME
 Oriopsis ,5,BioTIME
 Oriopsis armandi,51,BioTIME
-ORJU ,1,BioTIME
 Ormosia amazonica,1,BioTIME
 Ormosia arborea,3,BioTIME
 Ormosia coccinea,2,BioTIME
@@ -29834,7 +29829,6 @@ Osmundea truncata,2,BioTIME
 Osorinae sp,1,BioTIME
 Osorius angustulus,11,BioTIME
 Osorius taurus,3,BioTIME
-OSPR ,1,BioTIME
 Osprey ,1,BioTIME
 Ossaea sp2,1,BioTIME
 Osteichthyes ,11,BioTIME
@@ -29934,7 +29928,6 @@ Ovalipes floridanus,9,BioTIME
 Ovalipes molleri,4,BioTIME
 Ovalipes ocellatus,1489,BioTIME
 Ovalipes stephensoni,483,BioTIME
-OVEN ,1,BioTIME
 Ovenbird,1,BioTIME
 Ovenbird ,2,BioTIME
 Owenia ,30,BioTIME
@@ -30034,6 +30027,34 @@ Oxyurostylis sp3,12,BioTIME
 Oxyurostylis sp4,1,BioTIME
 Oxyurostylis spa,19,BioTIME
 Oxyurostylis spb,33,BioTIME
+PBGR ,1,BioTIME
+PEFA ,1,BioTIME
+PF3 ,1,BioTIME
+PF4 ,1,BioTIME
+PFLB ,1,BioTIME
+PHAI ,1,BioTIME
+PICEGLA ,14,BioTIME
+PICEGLA1 ,1,BioTIME
+PICEGLA2 ,1,BioTIME
+PICEGLA3 ,27,BioTIME
+PICEMAR ,2,BioTIME
+PICEMAR2 ,1,BioTIME
+PICEMAR3 ,6,BioTIME
+PICESPEC ,1,BioTIME
+PLVI ,1,BioTIME
+POAC1 ,1,BioTIME
+POACE ,1,BioTIME
+POPUBAL ,9,BioTIME
+POPUBAL2 ,6,BioTIME
+POPUBAL3 ,19,BioTIME
+POPUTRE ,8,BioTIME
+POPUTRE1 ,1,BioTIME
+POPUTRE2 ,5,BioTIME
+POPUTRE3 ,11,BioTIME
+PORT1 ,1,BioTIME
+PRFA ,1,BioTIME
+PSJU ,1,BioTIME
+PYRR ,1,BioTIME
 Pachira patinoi,1,BioTIME
 Pachira sessilis,1,BioTIME
 Pachyarthron cretaceum,1,BioTIME
@@ -30122,7 +30143,6 @@ Paguma larvata,21,BioTIME
 Pagurapseudes ,4,BioTIME
 Pagurapseudes largoensis,40,BioTIME
 Pagurapseudidae ,1,BioTIME
-pagurid ,1,BioTIME
 Pagurid megalops,33,BioTIME
 Paguridae,6,BioTIME
 Paguridae ,1740,BioTIME
@@ -30902,7 +30922,6 @@ Parascolopsis rufomaculatus,24,BioTIME
 Parascolopsis spinosa,1,BioTIME
 Parascolopsis tanyactis,187,BioTIME
 Parascolymia vitiensis,3,BioTIME
-parascorpaena mossambica,2,BioTIME
 Parascorpaena mozambica,1,BioTIME
 Parascorpaena picta,3,BioTIME
 Parascorpaena sp,1,BioTIME
@@ -31292,7 +31311,6 @@ Pawsonia saxicola,123,BioTIME
 Paxillosida ,1,BioTIME
 Payena lucida,1,BioTIME
 Payena maingayi,1,BioTIME
-PBGR ,1,BioTIME
 Peach-faced Lovebird,1,BioTIME
 Peachia cylindrica,62,BioTIME
 Peachia parasitica,2,BioTIME
@@ -31367,7 +31385,6 @@ Pedinomonas minutissima,1,BioTIME
 Pediomelum argophyllum,2,BioTIME
 Pediomelum esculentum,1,BioTIME
 Pediomelum sp,1,BioTIME
-PEFA ,1,BioTIME
 Pegasus laternarius,1,BioTIME
 Pegasus sp41,4,BioTIME
 Pegasus volitans,73,BioTIME
@@ -31482,8 +31499,8 @@ Penetrantia irregularis,13,BioTIME
 Penetrantia parva,7,BioTIME
 Peniagone ,1,BioTIME
 Peniagone A-complex,1,BioTIME
-Peniagone azorica,1,BioTIME
 Peniagone B-complex,1,BioTIME
+Peniagone azorica,1,BioTIME
 Peniagone diaphana,1,BioTIME
 Peniagone sp1,1,BioTIME
 Peniagone sp2,1,BioTIME
@@ -31889,10 +31906,7 @@ Peyssonnelia rubra,6,BioTIME
 Peyssonnelia sp,4,BioTIME
 Peyssonnelia sp1,83,BioTIME
 Peyssonneliaceae ,4,BioTIME
-PF3 ,1,BioTIME
-PF4 ,1,BioTIME
 Pfaffia tuberosa,1,BioTIME
-PFLB ,1,BioTIME
 Phacelia ,1,BioTIME
 Phacelia arizonica,1,BioTIME
 Phacelia integrifolia,4,BioTIME
@@ -31929,7 +31943,6 @@ Phaethon ,13,BioTIME
 Phaethon aethereus,110,BioTIME
 Phaethon lepturus,47,BioTIME
 Phaethon rubricauda,48,BioTIME
-PHAI ,1,BioTIME
 Phainopepla ,1,BioTIME
 Phainopepla nitens,9,BioTIME
 Phakellia ,2,BioTIME
@@ -32600,14 +32613,6 @@ Picea mariana,1,BioTIME
 Picea rubens,3,BioTIME
 Picea sitchensis,28,BioTIME
 Picea sp,6,BioTIME
-PICEGLA ,14,BioTIME
-PICEGLA1 ,1,BioTIME
-PICEGLA2 ,1,BioTIME
-PICEGLA3 ,27,BioTIME
-PICEMAR ,2,BioTIME
-PICEMAR2 ,1,BioTIME
-PICEMAR3 ,6,BioTIME
-PICESPEC ,1,BioTIME
 Picidae ,108,BioTIME
 Picoides albolarvatus,11,BioTIME
 Picoides arcticus,88,BioTIME
@@ -32619,7 +32624,6 @@ Picoides pubescens,668,BioTIME
 Picoides scalaris,11,BioTIME
 Picoides tridactylus,10,BioTIME
 Picoides villosus,1971,BioTIME
-picophytoplankton ,123,BioTIME
 Picramnia glazioviana,1,BioTIME
 Picramnia latifolia,2,BioTIME
 Picramnia ramiflora,2,BioTIME
@@ -33426,7 +33430,6 @@ Pluvialis apricaria,1,BioTIME
 Pluvialis apricarius,2,BioTIME
 Pluvialis fulva,118,BioTIME
 Pluvialis squatarola,114,BioTIME
-PLVI ,1,BioTIME
 Plylloscopus trochilus,1,BioTIME
 Pneophyllum concollum,1,BioTIME
 Pneophyllum confervicola,29,BioTIME
@@ -33447,8 +33450,6 @@ Poa pratensis,33,BioTIME
 Poa secunda,1,BioTIME
 Poa sp,5,BioTIME
 Poa trivialis,13,BioTIME
-POAC1 ,1,BioTIME
-POACE ,1,BioTIME
 Poaceae sp,2,BioTIME
 Poaceae sp3,1,BioTIME
 Poaceae1 sp1,5,BioTIME
@@ -34190,9 +34191,6 @@ Ponyalis quadricollis,1,BioTIME
 Pooecetes gramineus,2562,BioTIME
 Popowia pisocarpa,1,BioTIME
 Popowia tomentosa,1,BioTIME
-POPUBAL ,9,BioTIME
-POPUBAL2 ,6,BioTIME
-POPUBAL3 ,19,BioTIME
 Populus alba,2,BioTIME
 Populus deltoides,1,BioTIME
 Populus grandidentata,31,BioTIME
@@ -34201,10 +34199,6 @@ Populus sp,2,BioTIME
 Populus tremula,22,BioTIME
 Populus tremuloides,4,BioTIME
 Populus trichocarpa,4,BioTIME
-POPUTRE ,8,BioTIME
-POPUTRE1 ,1,BioTIME
-POPUTRE2 ,5,BioTIME
-POPUTRE3 ,11,BioTIME
 Poralia ,11,BioTIME
 Poralia rufescens,1,BioTIME
 Porania ,87,BioTIME
@@ -34307,7 +34301,6 @@ Porphyra umbilicalis,267,BioTIME
 Porphyridium purpureum,1,BioTIME
 Porphyropsis ,12,BioTIME
 Porphyropsis coccinea,76,BioTIME
-PORT1 ,1,BioTIME
 Porterandia anisophylla,1,BioTIME
 Portieria ,29,BioTIME
 Portieria harveyi,2,BioTIME
@@ -34463,7 +34456,6 @@ Preperidinium meunieri,7,BioTIME
 Preperidinium meunierii,12,BioTIME
 Prestoea acuminata,1,BioTIME
 Prestoea decurrens,1,BioTIME
-PRFA ,1,BioTIME
 Priacanthidae ,39,BioTIME
 Priacanthus arenatus,407,BioTIME
 Priacanthus fitchi,4,BioTIME
@@ -35459,7 +35451,6 @@ Psiloteredo megotara,2,BioTIME
 Psinidia ,1,BioTIME
 Psinidia fenestralis,1,BioTIME
 Psittacula krameri,1,BioTIME
-PSJU ,1,BioTIME
 Psocoptera,1,BioTIME
 Psolidium bullatum,3,BioTIME
 Psoloessa delicatula,2,BioTIME
@@ -35817,8 +35808,8 @@ Pupa sp1,16,BioTIME
 Pupa sp2,2,BioTIME
 Puperita pupa,1,BioTIME
 Puriana sp1,1,BioTIME
-Purple finch,1,BioTIME
 Purple Martin,1,BioTIME
+Purple finch,1,BioTIME
 Purshia tridentata,1,BioTIME
 Pusa hispida,113,BioTIME
 Pusia gemmata,5,BioTIME
@@ -35936,7 +35927,6 @@ Pyrostephos vanhoeffeni,8,BioTIME
 Pyroteuthis addolux,1,BioTIME
 Pyroteuthis margaritifera,20,BioTIME
 Pyroteuthis sp,4,BioTIME
-PYRR ,1,BioTIME
 Pyrrhalta viburni,1,BioTIME
 Pyrrharctia isabella,1,BioTIME
 Pyrrhia exprimens,1,BioTIME
@@ -35961,6 +35951,10 @@ Pyura tessellata,29,BioTIME
 Pyura vittata,5,BioTIME
 Pyurachilensis ,2,BioTIME
 Pyuridae ,1,BioTIME
+QUERCxBEN ,1,BioTIME
+QUERMON ,1,BioTIME
+QUERxFER ,1,BioTIME
+QUGR3B ,1,BioTIME
 Quadrella maculosa,2,BioTIME
 Quadricellaria bocki,1,BioTIME
 Quadricellaria caraibica,8,BioTIME
@@ -36002,16 +35996,12 @@ Quercus sp,2,BioTIME
 Quercus stellata,1,BioTIME
 Quercus turbinella,1,BioTIME
 Quercus velutina,1,BioTIME
-QUERCxBEN ,1,BioTIME
-QUERMON ,1,BioTIME
-QUERxFER ,1,BioTIME
 Questa ,18,BioTIME
 Questa caudicirra,64,BioTIME
 Questa sp,13,BioTIME
 Questa sp1,4,BioTIME
 Questa sp2,12,BioTIME
 Questidae ,15,BioTIME
-QUGR3B ,1,BioTIME
 Quietula y-cauda,16,BioTIME
 Quiina schippii,1,BioTIME
 Quillaja brasiliensis,1,BioTIME
@@ -36025,6 +36015,26 @@ Quollastria capricornae,5,BioTIME
 Quollastria gonypetes,56,BioTIME
 Quollastria sp,1,BioTIME
 Quollastria subtilis,100,BioTIME
+RBGU ,1,BioTIME
+RCKI ,1,BioTIME
+RCSP ,1,BioTIME
+REDH ,1,BioTIME
+RITD ,1,BioTIME
+RLHA ,1,BioTIME
+RNDU ,1,BioTIME
+RNSA ,1,BioTIME
+ROAL ,1,BioTIME
+RODO ,1,BioTIME
+ROSAACIC ,25,BioTIME
+ROSAASCI ,1,BioTIME
+ROWR ,1,BioTIME
+RSFL ,1,BioTIME
+RTHA ,1,BioTIME
+RUBUIDAE ,10,BioTIME
+RUBUSPEC ,2,BioTIME
+RUDU ,1,BioTIME
+RUHU ,1,BioTIME
+RWBL ,1,BioTIME
 Rachycentron canadum,384,BioTIME
 Racomitrium canescens,3,BioTIME
 Racomitrium fasciculare,1,BioTIME
@@ -36190,16 +36200,13 @@ Rattus rattus,1,BioTIME
 Rauvolfia littoralis,1,BioTIME
 Raylilia coniculifera,11,BioTIME
 Raylilia gracilipes,1,BioTIME
-RBGU ,1,BioTIME
-RCKI ,1,BioTIME
-RCSP ,1,BioTIME
 Reciprocus regalis,1,BioTIME
 Recurvaria leucatella,1,BioTIME
 Recurvaria nanella,1,BioTIME
 Recurvirostra americana,3,BioTIME
 Recurvirostra avosetta,27,BioTIME
-Red algae sp,5,BioTIME
 Red Algal Turf sp,39,BioTIME
+Red algae sp,5,BioTIME
 Red films,2,BioTIME
 Red spot,3,BioTIME
 Red staining,21,BioTIME
@@ -36211,7 +36218,6 @@ Red-headed woodpecker,4,BioTIME
 Red-naped Sapsucker,1,BioTIME
 Red-tailed Hawk,3,BioTIME
 Red-winged Blackbird,3,BioTIME
-REDH ,1,BioTIME
 Redhead ,1,BioTIME
 Redunca redunca,1,BioTIME
 Reduviidae sp2,1,BioTIME
@@ -36238,7 +36244,6 @@ Reithrodontomys megalotis,5,BioTIME
 Reithrodontomys megalotus,44,BioTIME
 Reithrodontomys montanus,4,BioTIME
 Relbunium richardianum,1,BioTIME
-remi ,1,BioTIME
 Remiz pendulinus,2,BioTIME
 Remora brachyptera,1,BioTIME
 Remora remora,69,BioTIME
@@ -36749,17 +36754,12 @@ Rissoina catesbyana,20,BioTIME
 Rissoina decussata,6,BioTIME
 Rissoina multicostata,5,BioTIME
 Ristantia pachysperma,2,BioTIME
-RITD ,1,BioTIME
 Ritterella aequalisiphonis,2,BioTIME
 Rivula propinqualis,1,BioTIME
 Rivula sericealis,1,BioTIME
 Rivularia ,3,BioTIME
 Rivularia sp,2,BioTIME
-RLHA ,1,BioTIME
-RNDU ,1,BioTIME
-RNSA ,1,BioTIME
 Roa australis,77,BioTIME
-ROAL ,1,BioTIME
 Robackia ,5,BioTIME
 Robackia claviger,2,BioTIME
 Robertsonidra argentea,3,BioTIME
@@ -36789,7 +36789,6 @@ Rock Dove,1,BioTIME
 Rock Wren,1,BioTIME
 Rockinghamia angustifolia,5,BioTIME
 Rodentia ,28,BioTIME
-RODO ,1,BioTIME
 Roeboides descalvadensis,3,BioTIME
 Roella amplexicaulis,3,BioTIME
 Roella ciliata,19,BioTIME
@@ -36819,8 +36818,6 @@ Roperia tesselata,30,BioTIME
 Rosa arkansana,2,BioTIME
 Rosa carolina,1,BioTIME
 Rosa spinosissima,1,BioTIME
-ROSAACIC ,25,BioTIME
-ROSAASCI ,1,BioTIME
 Rosacea arabiana,41,BioTIME
 Rosacea cymbiformis,130,BioTIME
 Rosacea plicata,722,BioTIME
@@ -36869,17 +36866,13 @@ Rouleina sp,205,BioTIME
 Rouleina squamilatera,36,BioTIME
 Roupala brasiliensis,2,BioTIME
 Roupala montana,14,BioTIME
-ROWR ,1,BioTIME
 Roxania ,1,BioTIME
 Roxania utriculus,1,BioTIME
 Rozinante fragilis,3,BioTIME
-RSFL ,1,BioTIME
-RTHA ,1,BioTIME
 Ruagea glabra,1,BioTIME
 Rubble/Shell,5,BioTIME
 Rubiaceae ,1,BioTIME
 Rubiaceae1 sp,1,BioTIME
-RUBUIDAE ,10,BioTIME
 Rubus allegheniensis,1,BioTIME
 Rubus argutus,2,BioTIME
 Rubus calycinoides,1,BioTIME
@@ -36891,7 +36884,6 @@ Rubus occidentalis,1,BioTIME
 Rubus ostryifolius,1,BioTIME
 Rubus pentalobus,1,BioTIME
 Rubus sp,2,BioTIME
-RUBUSPEC ,2,BioTIME
 Ruby-crowned Kinglet,1,BioTIME
 Ruby-throated hummingbird,3,BioTIME
 Rudarius ercodes,3,BioTIME
@@ -36905,7 +36897,6 @@ Rudilemboides sp,2,BioTIME
 Rudilemboides sp1,7,BioTIME
 Rudilemboides stenopropodus,56,BioTIME
 Ruditapes philippinarum,138,BioTIME
-RUDU ,1,BioTIME
 Ruellia humilis,2,BioTIME
 Rufous Hummingbird,1,BioTIME
 Rufous-crowned Sparrow,1,BioTIME
@@ -36913,7 +36904,6 @@ Rufous-sided towhee,4,BioTIME
 Rugilus rufescens,1,BioTIME
 Rugilus sp,3,BioTIME
 Rugulopteryx okamurae,3,BioTIME
-RUHU ,1,BioTIME
 Rumbleaster eructans,3,BioTIME
 Rumex acetosa,17,BioTIME
 Rumex acetosella,16,BioTIME
@@ -36952,7 +36942,6 @@ Rutiderma sp,1,BioTIME
 Rutidermatidae ,6,BioTIME
 Rutilus rutilus,37,BioTIME
 Ruvettus pretiosus,10,BioTIME
-RWBL ,1,BioTIME
 Rynchops niger,1,BioTIME
 Ryparosa acuminata,1,BioTIME
 Ryparosa fasciculata,1,BioTIME
@@ -36964,6 +36953,45 @@ Rypticus saponaceus,10,BioTIME
 Rypticus sp,14,BioTIME
 Rypticus subbifrenatus,3,BioTIME
 Rytiphlaea tinctoria,1,BioTIME
+SAGS ,1,BioTIME
+SALBEBB ,1,BioTIME
+SALIALAX ,9,BioTIME
+SALIARBU ,5,BioTIME
+SALIBEB ,1,BioTIME
+SALIBEBB ,5,BioTIME
+SALIBRAC ,8,BioTIME
+SALICOMM ,1,BioTIME
+SALIGLAU ,6,BioTIME
+SALIINTE ,8,BioTIME
+SALILASI ,7,BioTIME
+SALIMONT ,3,BioTIME
+SALIMYRT ,1,BioTIME
+SALINIPH ,2,BioTIME
+SALINNTE ,1,BioTIME
+SALINOVA ,10,BioTIME
+SALIPLAN ,5,BioTIME
+SALISCOU ,2,BioTIME
+SALISPE2 ,10,BioTIME
+SAPH ,1,BioTIME
+SATH ,1,BioTIME
+SAVS ,1,BioTIME
+SCJU ,1,BioTIME
+SCOR ,1,BioTIME
+SDECI,1,BioTIME
+SEDGE,1,BioTIME
+SEVER,1,BioTIME
+SHEPCANA ,1,BioTIME
+SNEG ,1,BioTIME
+SORA ,1,BioTIME
+SOSP ,1,BioTIME
+SOVI ,1,BioTIME
+SPSA ,1,BioTIME
+SPTO ,1,BioTIME
+SSHA ,1,BioTIME
+STJA ,1,BioTIME
+SUTA ,1,BioTIME
+SWHA ,1,BioTIME
+SWSP ,1,BioTIME
 Sabaco americanus,172,BioTIME
 Sabaco elongatus,62,BioTIME
 Sabatia campestris,1,BioTIME
@@ -37096,29 +37124,10 @@ Sagitta zetesios,104,BioTIME
 Sagittaria sp,14,BioTIME
 Sagittidae ,16,BioTIME
 Sagittoidea,272,BioTIME
-SAGS ,1,BioTIME
 Salacia crassifolia,1,BioTIME
 Salacia gigantea,1,BioTIME
 Salarias fasciatus,1,BioTIME
-SALBEBB ,1,BioTIME
-SALIALAX ,9,BioTIME
-SALIARBU ,5,BioTIME
-SALIBEB ,1,BioTIME
-SALIBEBB ,5,BioTIME
-SALIBRAC ,8,BioTIME
-SALICOMM ,1,BioTIME
 Salicornia ,17,BioTIME
-SALIGLAU ,6,BioTIME
-SALIINTE ,8,BioTIME
-SALILASI ,7,BioTIME
-SALIMONT ,3,BioTIME
-SALIMYRT ,1,BioTIME
-SALINIPH ,2,BioTIME
-SALINNTE ,1,BioTIME
-SALINOVA ,10,BioTIME
-SALIPLAN ,5,BioTIME
-SALISCOU ,2,BioTIME
-SALISPE2 ,10,BioTIME
 Salix arctica,10,BioTIME
 Salix aurita,9,BioTIME
 Salix callicarpaea,10,BioTIME
@@ -37226,7 +37235,6 @@ Santiria rubiginosa,1,BioTIME
 Santiria tomentosa,1,BioTIME
 Sanvitalia aberti,1,BioTIME
 Sanvitalia abertii,3,BioTIME
-SAPH ,1,BioTIME
 Saphirella tropica,17,BioTIME
 Sapium baccatum,1,BioTIME
 Sapium broadleaf,2,BioTIME
@@ -37369,7 +37377,6 @@ Sassia sexcostata,1,BioTIME
 Satarupa gopala,1,BioTIME
 Satarupa nymphalis,1,BioTIME
 Satarupa sp,1,BioTIME
-SATH ,1,BioTIME
 Saturnia corpulenta,3,BioTIME
 Saturnia subovata,20,BioTIME
 Satyrichthys amiscus,3,BioTIME
@@ -37413,7 +37420,6 @@ Savannah Sparrow,1,BioTIME
 Savia dictyocarpa,2,BioTIME
 Savignyella lafonti,3,BioTIME
 Savignyella sp,43,BioTIME
-SAVS ,1,BioTIME
 Saw-whet owl,1,BioTIME
 Saxicavella jeffreysi,9,BioTIME
 Saxicavella nybakkeni,7,BioTIME
@@ -37802,7 +37808,6 @@ Scissurellidae ,3,BioTIME
 Sciurus carolinensis,1,BioTIME
 Sciurus lis,14,BioTIME
 Sciurus vulgaris,3,BioTIME
-SCJU ,1,BioTIME
 Scleracis guadaloupensis,3,BioTIME
 Scleractinia ,778,BioTIME
 Scleractinia community,4,BioTIME
@@ -38053,7 +38058,6 @@ Scopula immutata,1,BioTIME
 Scopula junctaria,1,BioTIME
 Scopula luteolata,1,BioTIME
 Scopula sideraria,1,BioTIME
-SCOR ,1,BioTIME
 Scorpaena ,3,BioTIME
 Scorpaena agassizii,76,BioTIME
 Scorpaena albifimbria,2,BioTIME
@@ -38216,7 +38220,6 @@ Scytodes fusca,1,BioTIME
 Scytosiphon ,1,BioTIME
 Scytosiphon lomentaria,232,BioTIME
 Scytosiphonaceae ,1,BioTIME
-SDECI,1,BioTIME
 Sea lily,6,BioTIME
 Sea pen,9,BioTIME
 Sea star,2,BioTIME
@@ -38303,7 +38306,6 @@ Secutor insidiator,126,BioTIME
 Secutor megalolepis,1,BioTIME
 Secutor ruconius,13,BioTIME
 Secutor sp41,1,BioTIME
-SEDGE,1,BioTIME
 Sedina buettneri,1,BioTIME
 Sedum alpestre,2,BioTIME
 Sedum atratum,1,BioTIME
@@ -38634,9 +38636,7 @@ Setophaga ruticilla,621,BioTIME
 Setophaga striata,1,BioTIME
 Setophaga tigrina,1,BioTIME
 Setophaga virens,4,BioTIME
-SEVER,1,BioTIME
 Sharp-shinned Hawk,1,BioTIME
-SHEPCANA ,1,BioTIME
 Shinkai sagamiensis,1,BioTIME
 Shinkaia crosnieri,45,BioTIME
 Shinkaicaris leurokolos,3,BioTIME
@@ -39027,7 +39027,6 @@ Smittoidea marmorea,2,BioTIME
 Smittoidea maunganuiensis,30,BioTIME
 Smittoidea reticulata,10,BioTIME
 Smittoidea zelandiae,12,BioTIME
-SNEG ,1,BioTIME
 Snow petrel,1,BioTIME
 Snowella litoralis,2,BioTIME
 Snowy Egret,1,BioTIME
@@ -39168,7 +39167,6 @@ Solenostomus leptosomus,8,BioTIME
 Solenostomus sp,1,BioTIME
 Soletellina petalina,2,BioTIME
 Solidago canadensis,2,BioTIME
-solidago drummondii,1,BioTIME
 Solidago gigantea,1,BioTIME
 Solidago glaberrima,1,BioTIME
 Solidago ludiviciana,1,BioTIME
@@ -39215,7 +39213,6 @@ Sooty albatross,1,BioTIME
 Sophora nuttalliana,1,BioTIME
 Sophronia semicostella,1,BioTIME
 Sophrops kawadai,2,BioTIME
-SORA ,1,BioTIME
 Sorbus acutisecta,1,BioTIME
 Sorbus americana,2,BioTIME
 Sorbus aria,2,BioTIME
@@ -39244,13 +39241,11 @@ Sorsogona tuberculata,241,BioTIME
 Sorubim lima,2,BioTIME
 Sosane occidentalis,7,BioTIME
 Sosane sulcata,12,BioTIME
-SOSP ,1,BioTIME
 Sousa chinensis,1,BioTIME
 South polar-skua,1,BioTIME
 Southern elephant-seal,1,BioTIME
 Southern fulmar,1,BioTIME
 Southern giant-petrel,1,BioTIME
-SOVI ,1,BioTIME
 Sp nova,1,BioTIME
 Spachea membranacea,1,BioTIME
 Spadellidae ,3,BioTIME
@@ -39777,8 +39772,6 @@ Spratelloides gracilis,4,BioTIME
 Sprattus antipodum,20,BioTIME
 Sprattus muelleri,89,BioTIME
 Sprattus sprattus,191,BioTIME
-SPSA ,1,BioTIME
-SPTO ,1,BioTIME
 Spumella sp,1,BioTIME
 Spyridea filamentosa,8,BioTIME
 Spyridia filamentosa,81,BioTIME
@@ -39804,7 +39797,6 @@ Squatina nebulosa,2,BioTIME
 Squatina punctata,11,BioTIME
 Squatina squatina,1,BioTIME
 Squatina tergocellata,69,BioTIME
-squid ,1,BioTIME
 Squilla ,9,BioTIME
 Squilla armata,7,BioTIME
 Squilla chydaea,29,BioTIME
@@ -39816,7 +39808,6 @@ Squilla mantis,17,BioTIME
 Squilla rugosa,3,BioTIME
 Squillidae ,9,BioTIME
 Squilloides leptosquilla,10,BioTIME
-SSHA ,1,BioTIME
 Staavia radiata,3,BioTIME
 Staberoha banksii,8,BioTIME
 Staberoha cernua,35,BioTIME
@@ -40227,7 +40218,6 @@ Stipa melanosperma,1,BioTIME
 Stipa tenuissima,1,BioTIME
 Stipa yurgensii,1,BioTIME
 Stizostedion vitreum,1,BioTIME
-STJA ,1,BioTIME
 Stoebe capitata,6,BioTIME
 Stoebe cyathuloides,26,BioTIME
 Stoebe fusca,1,BioTIME
@@ -40601,7 +40591,6 @@ Surirella minuta,1,BioTIME
 Surirella sp,10,BioTIME
 Surnia ulula,4,BioTIME
 Sus scrofa,23,BioTIME
-SUTA ,1,BioTIME
 Sutorectus tentaculatus,3,BioTIME
 Suturoglypta iontha,10,BioTIME
 Swainsons Thrush,2,BioTIME
@@ -40612,10 +40601,8 @@ Swamp sparrow,1,BioTIME
 Swartzia simplex,1,BioTIME
 Swartzia simplex-grandiflora,1,BioTIME
 Sweetia fruticosa,2,BioTIME
-SWHA ,1,BioTIME
 Swift unidentified,5,BioTIME
 Swiftia pallida,28,BioTIME
-SWSP ,1,BioTIME
 Syacium gunteri,5,BioTIME
 Syacium micrurum,37,BioTIME
 Syacium papillosum,1163,BioTIME
@@ -41064,6 +41051,12 @@ Syzygium puberulum,1,BioTIME
 Syzygium sayeri,2,BioTIME
 Syzygium trachyphloium,2,BioTIME
 Syzygium wesa,7,BioTIME
+TORA ,1,BioTIME
+TOSO ,1,BioTIME
+TOWA ,1,BioTIME
+TPPR ,1,BioTIME
+TRES ,1,BioTIME
+TUVU ,1,BioTIME
 Taaningichthys ,5,BioTIME
 Taaningichthys bathyphilus,43,BioTIME
 Taaningichthys minimus,21,BioTIME
@@ -42187,7 +42180,6 @@ Tonna galea,13,BioTIME
 Tonna variegata,8,BioTIME
 Toona ciliata,3,BioTIME
 Topobea pittieri,1,BioTIME
-TORA ,1,BioTIME
 Torellia vestita,2,BioTIME
 Torilis arvensis,1,BioTIME
 Tornidae ,4,BioTIME
@@ -42228,10 +42220,8 @@ Tortricidia testacea,1,BioTIME
 Tortricodes alternella,1,BioTIME
 Tortrix viridana,1,BioTIME
 Tosia parva,13,BioTIME
-TOSO ,1,BioTIME
 Tovomita longifolia,1,BioTIME
 Tovomita stylosa,1,BioTIME
-TOWA ,1,BioTIME
 Townsendia annua,2,BioTIME
 Townsendia exscapa,1,BioTIME
 Townsends Solitaire,1,BioTIME
@@ -42256,7 +42246,6 @@ Tozeuma carolinense,157,BioTIME
 Tozeuma cornutum,1,BioTIME
 Tozeuma serratum,11,BioTIME
 Tozeuma sp1030,5,BioTIME
-TPPR ,1,BioTIME
 Trachea atriplicis,1,BioTIME
 Trachelomonas ,1,BioTIME
 Trachelomonas sp,8,BioTIME
@@ -42397,8 +42386,8 @@ Trechus discus,1,BioTIME
 Trechus quadristriatus,1,BioTIME
 Trechus sp,3,BioTIME
 Trechus vicarius,1,BioTIME
-Tree sparrow,1,BioTIME
 Tree Swallow,1,BioTIME
+Tree sparrow,1,BioTIME
 Trema integerrima,1,BioTIME
 Trema macrophylla,1,BioTIME
 Trema micrantha,5,BioTIME
@@ -42424,7 +42413,6 @@ Trephionus nikkoensis,1,BioTIME
 Trephionus sp,2,BioTIME
 Treron formosae,14,BioTIME
 Treron sieboldii,350,BioTIME
-TRES ,1,BioTIME
 Tresus nuttallii,2,BioTIME
 Tresus sp,23,BioTIME
 Tretosina flemingi,4,BioTIME
@@ -43048,7 +43036,6 @@ Turtonia ,1,BioTIME
 Turtonia minuta,93,BioTIME
 Tussilago farfara,2,BioTIME
 Tutufa sp1,2,BioTIME
-TUVU ,1,BioTIME
 Tyche emarginata,1,BioTIME
 Tydemania ,24,BioTIME
 Tydemania expeditionis,25,BioTIME
@@ -43135,6 +43122,57 @@ Tyromyces floriformis,1,BioTIME
 Tyto alba,17,BioTIME
 Tytthocope pygmaea,1,BioTIME
 Tytus sp,1,BioTIME
+UDCO ,1,BioTIME
+UDEJ ,1,BioTIME
+UFLI ,1,BioTIME
+UKFO10 ,1,BioTIME
+UKFO13 ,1,BioTIME
+UKFO17 ,1,BioTIME
+UKFO31 ,1,BioTIME
+UKFO51 ,1,BioTIME
+UKFO75 ,1,BioTIME
+ULMU ,1,BioTIME
+UNAC ,1,BioTIME
+UNBL ,1,BioTIME
+UNBU ,1,BioTIME
+UNCO ,1,BioTIME
+UNDO ,1,BioTIME
+UNDU ,1,BioTIME
+UNDW ,1,BioTIME
+UNEG ,1,BioTIME
+UNFA ,1,BioTIME
+UNFI ,1,BioTIME
+UNFL ,1,BioTIME
+UNGN ,1,BioTIME
+UNGO ,1,BioTIME
+UNGU ,1,BioTIME
+UNHA ,1,BioTIME
+UNHE ,1,BioTIME
+UNHU ,1,BioTIME
+UNID ,1,BioTIME
+UNJA ,1,BioTIME
+UNKI ,1,BioTIME
+UNME ,1,BioTIME
+UNOR ,1,BioTIME
+UNOW ,1,BioTIME
+UNPA ,1,BioTIME
+UNPK ,1,BioTIME
+UNRA ,1,BioTIME
+UNSA ,1,BioTIME
+UNSF ,1,BioTIME
+UNSP ,1,BioTIME
+UNST ,1,BioTIME
+UNSW ,1,BioTIME
+UNTA ,1,BioTIME
+UNTH ,1,BioTIME
+UNTO ,1,BioTIME
+UNVI ,1,BioTIME
+UNWA ,1,BioTIME
+UNWO ,1,BioTIME
+UNWR ,1,BioTIME
+UNYE ,1,BioTIME
+URST ,1,BioTIME
+UYRW ,1,BioTIME
 Uca ,1,BioTIME
 Uca crenulata,1,BioTIME
 Uca lactea,15,BioTIME
@@ -43145,14 +43183,12 @@ Udara dilecta,1,BioTIME
 Udara placidula,1,BioTIME
 Udara sp,1,BioTIME
 Udaspes folus,1,BioTIME
-UDCO ,1,BioTIME
 Udea ferrugalis,1,BioTIME
 Udea itysalis,1,BioTIME
 Udea lutealis,1,BioTIME
 Udea profundalis,1,BioTIME
 Udea prunalis,1,BioTIME
 Udea washingtonalis,1,BioTIME
-UDEJ ,1,BioTIME
 Udotea ,21,BioTIME
 Udotea argenta,5,BioTIME
 Udotea argentea,105,BioTIME
@@ -43162,17 +43198,9 @@ Udotea orientalis,204,BioTIME
 Udotea sp1,13,BioTIME
 Udotea sp2,9,BioTIME
 Ufeus plicatus,1,BioTIME
-UFLI ,1,BioTIME
 Uhlorchestia uhleri,4,BioTIME
-UKFO10 ,1,BioTIME
-UKFO13 ,1,BioTIME
-UKFO17 ,1,BioTIME
-UKFO31 ,1,BioTIME
-UKFO51 ,1,BioTIME
-UKFO75 ,1,BioTIME
 Ulcina olrikii,86,BioTIME
 Ulex parviflorus,1,BioTIME
-ULMU ,1,BioTIME
 Ulmus americana,3,BioTIME
 Ulmus glabra,6,BioTIME
 Ulmus laevis,2,BioTIME
@@ -43238,9 +43266,6 @@ Umbraculum umbraculum,10,BioTIME
 Umbraulva japonica,4,BioTIME
 Umbrina canosai,318,BioTIME
 Umbrina coroides,4,BioTIME
-UNAC ,1,BioTIME
-UNBL ,1,BioTIME
-UNBU ,1,BioTIME
 Uncaria tomentosa,1,BioTIME
 Unciola ,501,BioTIME
 Unciola crenatipalma,15,BioTIME
@@ -43253,7 +43278,6 @@ Unciola serrata,244,BioTIME
 Unciola sp,1,BioTIME
 Unciola sp2,2,BioTIME
 Unciola spicata,5,BioTIME
-UNCO ,1,BioTIME
 Undaria pinnatifida,8,BioTIME
 Undatella ,9,BioTIME
 Undella sp,15,BioTIME
@@ -43269,21 +43293,7 @@ Undinella sp,1,BioTIME
 Undinopsis pacificus,1,BioTIME
 Undinula sp,1,BioTIME
 Undinula vulgaris,366,BioTIME
-UNDO ,1,BioTIME
-UNDU ,1,BioTIME
-UNDW ,1,BioTIME
-UNEG ,1,BioTIME
-UNFA ,1,BioTIME
-UNFI ,1,BioTIME
-UNFL ,1,BioTIME
-UNGN ,1,BioTIME
-UNGO ,1,BioTIME
-UNGU ,1,BioTIME
 Ungulinidae ,18,BioTIME
-UNHA ,1,BioTIME
-UNHE ,1,BioTIME
-UNHU ,1,BioTIME
-UNID ,1,BioTIME
 Unid amphiuridae,58,BioTIME
 Unid aoridae,75,BioTIME
 Unid asteroidea,2,BioTIME
@@ -43317,54 +43327,63 @@ Unidentified ,315,BioTIME
 Unidentified 1,2,BioTIME
 Unidentified 2,2,BioTIME
 Unidentified 3,1,BioTIME
-Unidentified albatross,1,BioTIME
-Unidentified anemone sp,28,BioTIME
 Unidentified Arborescent Bryozoan sp,20,BioTIME
-Unidentified atlantids,4,BioTIME
 Unidentified Blackbird,1,BioTIME
-Unidentified brown blade sp,8,BioTIME
-Unidentified carideans,19,BioTIME
-Unidentified chaetognaths,203,BioTIME
 Unidentified Copepod,78,BioTIME
 Unidentified Cowbird,1,BioTIME
 Unidentified Dark-eyed-Junco,1,BioTIME
-Unidentified deciduous,1,BioTIME
-Unidentified dolphin,1,BioTIME
 Unidentified Doves,1,BioTIME
 Unidentified Duck,1,BioTIME
-Unidentified egg,24,BioTIME
 Unidentified Egret,1,BioTIME
-Unidentified erect coralline sp,5,BioTIME
-Unidentified euphausiid,59,BioTIME
-Unidentified evergreen,1,BioTIME
 Unidentified Falcon,1,BioTIME
 Unidentified Fish,18,BioTIME
 Unidentified Flycatcher,1,BioTIME
+Unidentified Gnatcatcher,1,BioTIME
+Unidentified Hummingbird,1,BioTIME
+Unidentified Macaw,1,BioTIME
+Unidentified Meadowlark,1,BioTIME
+Unidentified Owl,1,BioTIME
+Unidentified Parakeet,1,BioTIME
+Unidentified Parrot,1,BioTIME
+Unidentified Raptor,1,BioTIME
+Unidentified Sandpiper,1,BioTIME
+Unidentified Sparrow,1,BioTIME
+Unidentified Sparrow/Finch,1,BioTIME
+Unidentified Swallow,1,BioTIME
+Unidentified Tanager,1,BioTIME
+Unidentified Thrasher,1,BioTIME
+Unidentified Vireo,1,BioTIME
+Unidentified Warbler,1,BioTIME
+Unidentified Woodpecker,1,BioTIME
+Unidentified Wren,1,BioTIME
+Unidentified albatross,1,BioTIME
+Unidentified anemone sp,28,BioTIME
+Unidentified atlantids,4,BioTIME
+Unidentified brown blade sp,8,BioTIME
+Unidentified carideans,19,BioTIME
+Unidentified chaetognaths,203,BioTIME
+Unidentified deciduous,1,BioTIME
+Unidentified dolphin,1,BioTIME
+Unidentified egg,24,BioTIME
+Unidentified erect coralline sp,5,BioTIME
+Unidentified euphausiid,59,BioTIME
+Unidentified evergreen,1,BioTIME
 Unidentified forb1,1,BioTIME
 Unidentified forb2,1,BioTIME
-Unidentified Gnatcatcher,1,BioTIME
 Unidentified graminoid,1,BioTIME
-Unidentified Hummingbird,1,BioTIME
 Unidentified hydroid sp,33,BioTIME
 Unidentified invertebrate,1,BioTIME
 Unidentified invertebrates,12,BioTIME
 Unidentified lichen,1,BioTIME
-Unidentified Macaw,1,BioTIME
-Unidentified Meadowlark,1,BioTIME
 Unidentified medusae,25,BioTIME
 Unidentified mosses,1,BioTIME
 Unidentified mysid,174,BioTIME
 Unidentified ophiuroid,2,BioTIME
-Unidentified Owl,1,BioTIME
-Unidentified Parakeet,1,BioTIME
-Unidentified Parrot,1,BioTIME
 Unidentified penguin,1,BioTIME
 Unidentified peraclis,5,BioTIME
 Unidentified plant,7,BioTIME
 Unidentified prion,1,BioTIME
-Unidentified Raptor,1,BioTIME
 Unidentified rotifer,2,BioTIME
-Unidentified Sandpiper,1,BioTIME
 Unidentified seal,1,BioTIME
 Unidentified sedge,1,BioTIME
 Unidentified sherman,1,BioTIME
@@ -43373,28 +43392,17 @@ Unidentified sp,5,BioTIME
 Unidentified sp1,11,BioTIME
 Unidentified sp2,24,BioTIME
 Unidentified sp3,1,BioTIME
-Unidentified Sparrow,1,BioTIME
-Unidentified Sparrow/Finch,1,BioTIME
 Unidentified species,2,BioTIME
 Unidentified storm-petrel,1,BioTIME
-Unidentified Swallow,1,BioTIME
-Unidentified Tanager,1,BioTIME
 Unidentified tern,1,BioTIME
 Unidentified thecosomata,14,BioTIME
-Unidentified Thrasher,1,BioTIME
-Unidentified Vireo,1,BioTIME
-Unidentified Warbler,1,BioTIME
 Unidentified whale,1,BioTIME
-Unidentified Woodpecker,1,BioTIME
-Unidentified Wren,1,BioTIME
 Unindentified Hawk,1,BioTIME
 Unionicola ,5,BioTIME
 Unionidae ,13,BioTIME
 Unionidae spa,4,BioTIME
 Uniophora granifera,2,BioTIME
 Uniramia ,4,BioTIME
-UNJA ,1,BioTIME
-UNKI ,1,BioTIME
 Unknown,4,BioTIME
 Unknown ,127,BioTIME
 Unknown 1,2,BioTIME
@@ -43418,6 +43426,7 @@ Unknown 26,1,BioTIME
 Unknown 5,2,BioTIME
 Unknown 6,2,BioTIME
 Unknown 8,2,BioTIME
+Unknown Yellow-rumped-Warbler,1,BioTIME
 Unknown algae,1,BioTIME
 Unknown forb,2,BioTIME
 Unknown fungi,1,BioTIME
@@ -43438,34 +43447,13 @@ Unknown sp6,1,BioTIME
 Unknown sponge,7,BioTIME
 Unknown tunicate,7,BioTIME
 Unknown vascular,1,BioTIME
-Unknown Yellow-rumped-Warbler,1,BioTIME
 Unknown1 sp1,3,BioTIME
 Unknown2 ,2,BioTIME
 Unknown2 sp2,1,BioTIME
 Unknown3 ,2,BioTIME
 Unknown4 ,2,BioTIME
-UNME ,1,BioTIME
 Unonopsis panamensis,1,BioTIME
 Unonopsis pittieri,2,BioTIME
-UNOR ,1,BioTIME
-UNOW ,1,BioTIME
-UNPA ,1,BioTIME
-UNPK ,1,BioTIME
-UNRA ,1,BioTIME
-UNSA ,1,BioTIME
-UNSF ,1,BioTIME
-UNSP ,1,BioTIME
-unspecifiable ,60,BioTIME
-UNST ,1,BioTIME
-UNSW ,1,BioTIME
-UNTA ,1,BioTIME
-UNTH ,1,BioTIME
-UNTO ,1,BioTIME
-UNVI ,1,BioTIME
-UNWA ,1,BioTIME
-UNWO ,1,BioTIME
-UNWR ,1,BioTIME
-UNYE ,1,BioTIME
 Upeneichthys lineatus,537,BioTIME
 Upeneichthys vlamingii,28,BioTIME
 Upeneus asymmetricus,424,BioTIME
@@ -43604,7 +43592,6 @@ Urothoe spec,1,BioTIME
 Urothoe varvarini,22,BioTIME
 Ursinia paleacea,23,BioTIME
 Ursinia tenuifolia,7,BioTIME
-URST ,1,BioTIME
 Ursus maritimus,19,BioTIME
 Ursus thibetanus,3,BioTIME
 Urtica dioica,4,BioTIME
@@ -43620,7 +43607,15 @@ Ute ensata,1,BioTIME
 Uteriporus vulgaris,2,BioTIME
 Uthatobasidium ochraceum,2,BioTIME
 Utricularia sp,22,BioTIME
-UYRW ,1,BioTIME
+VASW ,1,BioTIME
+VEFL ,1,BioTIME
+VERD ,1,BioTIME
+VESP ,1,BioTIME
+VGSW ,1,BioTIME
+VIBUED ,3,BioTIME
+VIBUEDUL ,17,BioTIME
+VIRA ,1,BioTIME
+VIWA ,1,BioTIME
 Vaccinium angustifolium,2,BioTIME
 Vaccinium microcarpum,1,BioTIME
 Vaccinium myrtillus,55,BioTIME
@@ -43695,7 +43690,6 @@ Varohios sp1,9,BioTIME
 Varunidae ,1,BioTIME
 Vasconcellea caulifora,1,BioTIME
 Vasignyella otophora,1,BioTIME
-VASW ,1,BioTIME
 Vatairea macrocarpa,3,BioTIME
 Vateria indica,1,BioTIME
 Vatica bella,1,BioTIME
@@ -43716,7 +43710,6 @@ Vaunthompsoniinae ,1,BioTIME
 Vauntompsonia ,1,BioTIME
 Vauxs Swift,1,BioTIME
 Vavaea amicorum,1,BioTIME
-VEFL ,1,BioTIME
 Velella velella,1,BioTIME
 Velifer hypselopterus,221,BioTIME
 Velleius dilatatus,1,BioTIME
@@ -43778,7 +43771,6 @@ Verbesina encelioides,2,BioTIME
 Verbesina gigantea,1,BioTIME
 Verbesina nudipes,1,BioTIME
 Verbesina sordescens,1,BioTIME
-VERD ,1,BioTIME
 Verdigellas ,3,BioTIME
 Verdin ,1,BioTIME
 Verecundum rasile,13,BioTIME
@@ -43854,7 +43846,6 @@ Vesicomya kaikoae,3,BioTIME
 Vesicomyidae ,9,BioTIME
 Vesicularia papuensis,98,BioTIME
 Vesicularia spinosa,45,BioTIME
-VESP ,1,BioTIME
 Vesper sparrow,1,BioTIME
 Vetigastropoda ,2,BioTIME
 Vettoria granulosa,1,BioTIME
@@ -43877,7 +43868,6 @@ Vexillum styria,4,BioTIME
 Vexillum taeniatum,13,BioTIME
 Vexillum takakuwai,1,BioTIME
 Vexillum vulpeculum,1,BioTIME
-VGSW ,1,BioTIME
 Viaderiana affinis,4,BioTIME
 Viaderiana striatus,5,BioTIME
 Viaderiana typica,4,BioTIME
@@ -43893,8 +43883,6 @@ Vibilia pyripes,14,BioTIME
 Vibilia sp,185,BioTIME
 Vibilia stebbingi,7,BioTIME
 Vibilia viatrix,4,BioTIME
-VIBUED ,3,BioTIME
-VIBUEDUL ,17,BioTIME
 Viburnum lentago,1,BioTIME
 Viburnum rafinesquianum,1,BioTIME
 Vicia americana,3,BioTIME
@@ -43931,7 +43919,6 @@ Viola praemorsa,1,BioTIME
 Viola pumila,1,BioTIME
 Viola tricolor,1,BioTIME
 Violet-green Swallow,1,BioTIME
-VIRA ,1,BioTIME
 Vireo ,1,BioTIME
 Vireo altiloquus,1,BioTIME
 Vireo atricapillus,1,BioTIME
@@ -44006,7 +43993,6 @@ Vitula biviella,1,BioTIME
 Vitula edmandsii,1,BioTIME
 Viviparidae ,4,BioTIME
 Viviparus georgianus,1,BioTIME
-VIWA ,1,BioTIME
 Vochysia ferruginea,2,BioTIME
 Vochysia haenkeana,3,BioTIME
 Vochysia rufa,2,BioTIME
@@ -44042,6 +44028,25 @@ Vulpes vulpes,20,BioTIME
 Vulpia octoflora,6,BioTIME
 Vulpia sp,1,BioTIME
 Vulsella vulsella,4,BioTIME
+WAVI ,1,BioTIME
+WBNU ,1,BioTIME
+WCSP ,1,BioTIME
+WEBL ,1,BioTIME
+WEFL ,1,BioTIME
+WEGR ,1,BioTIME
+WEKI ,1,BioTIME
+WEME ,1,BioTIME
+WESA ,1,BioTIME
+WESJ ,1,BioTIME
+WETA ,1,BioTIME
+WEWP ,1,BioTIME
+WFIB ,1,BioTIME
+WIPH ,1,BioTIME
+WISN ,1,BioTIME
+WIWA ,1,BioTIME
+WOST ,1,BioTIME
+WTSW ,1,BioTIME
+WWDO ,1,BioTIME
 Wachendorfia paniculata,2,BioTIME
 Waerniella lucifuga,3,BioTIME
 Wahlenbergia longifolia,10,BioTIME
@@ -44072,24 +44077,14 @@ Watsonalla binaria,1,BioTIME
 Watsonalla cultraria,1,BioTIME
 Watsonia meriana,1,BioTIME
 Watsonia tabularis,10,BioTIME
-WAVI ,1,BioTIME
-WBNU ,1,BioTIME
-WCSP ,1,BioTIME
 Webbina hemispherica,4,BioTIME
-WEBL ,1,BioTIME
 Websterinereis glauca,18,BioTIME
 Websterinereis spa,1,BioTIME
 Websterinereis tridentata,57,BioTIME
 Wecomedon wecomus,1,BioTIME
 Weddell seal,1,BioTIME
-WEFL ,1,BioTIME
-WEGR ,1,BioTIME
 Weinmannia sp1,1,BioTIME
-WEKI ,1,BioTIME
-WEME ,1,BioTIME
 Wendilgardia theridionina,1,BioTIME
-WESA ,1,BioTIME
-WESJ ,1,BioTIME
 Western Flycatcher,1,BioTIME
 Western Kingbird,1,BioTIME
 Western Meadowlark,1,BioTIME
@@ -44104,15 +44099,12 @@ Westwoodilla caecula,219,BioTIME
 Westwoodilla megalops,4,BioTIME
 Westwoodilla sp,4,BioTIME
 Westwoodilla sp1,22,BioTIME
-WETA ,1,BioTIME
 Wettinia kalbreyeri,1,BioTIME
-WEWP ,1,BioTIME
 Weyprechtia heuglini,9,BioTIME
 Weyprechtia pinguis,2,BioTIME
-WFIB ,1,BioTIME
 Whip-poor-will ,2,BioTIME
-White-breasted nuthatch,5,BioTIME
 White-Chinned petrel,1,BioTIME
+White-breasted nuthatch,5,BioTIME
 White-crowned Sparrow,1,BioTIME
 White-eyed vireo,1,BioTIME
 White-faced Ibis,1,BioTIME
@@ -44133,11 +44125,8 @@ Wilsonia pusilla,1108,BioTIME
 Wilsons Warbler,1,BioTIME
 Winter wren,2,BioTIME
 Winteria telescopa,1,BioTIME
-WIPH ,1,BioTIME
-WISN ,1,BioTIME
 Witica thalis,1,BioTIME
 Witlesia pallida,1,BioTIME
-WIWA ,1,BioTIME
 Woloszynskia reticulata,9,BioTIME
 Wood duck,1,BioTIME
 Wood thrush,4,BioTIME
@@ -44145,16 +44134,13 @@ Woodpecker unidentified,1482,BioTIME
 Woodsia meyerwaardeni,5,BioTIME
 Wormaldia occipitalis,1,BioTIME
 Woronichinia naegeliana,2,BioTIME
-WOST ,1,BioTIME
 Wrangelia ,15,BioTIME
 Wrangelia anastomosans,5,BioTIME
 Wren unidentified,3,BioTIME
 Wrightia laevis,1,BioTIME
 Wrightia tinctoria,1,BioTIME
 Wrigiana uniserialis,1,BioTIME
-WTSW ,1,BioTIME
 Wulfila immaculata,1,BioTIME
-WWDO ,1,BioTIME
 Wyeomyia sp1,1,BioTIME
 Wyeomyia sp2,1,BioTIME
 Wyeomyia sp3,1,BioTIME
@@ -44338,20 +44324,25 @@ Xyris sp,2,BioTIME
 Xyris sp1,5,BioTIME
 Xyris sp2,2,BioTIME
 Xystonella sp,5,BioTIME
+YBCH ,1,BioTIME
+YHBL ,1,BioTIME
+YRWA ,1,BioTIME
+YTWA ,1,BioTIME
+YUBAC ,1,BioTIME
+YUBAL ,1,BioTIME
+YWAR ,1,BioTIME
 Yacu shapana,1,BioTIME
 Yamadaella ,3,BioTIME
 Yarrella blackfordi,1,BioTIME
 Yasoda androconifera,1,BioTIME
 Yasoda tripunctata,1,BioTIME
-YBCH ,1,BioTIME
 Yellow Warbler,2,BioTIME
+Yellow-Breasted Chat,4,BioTIME
 Yellow-bellied Sapsucker,2,BioTIME
 Yellow-billed cuckoo,3,BioTIME
-Yellow-Breasted Chat,4,BioTIME
 Yellow-headed Blackbird,1,BioTIME
-Yellow-throated vireo,2,BioTIME
 Yellow-throated Warbler,3,BioTIME
-YHBL ,1,BioTIME
+Yellow-throated vireo,2,BioTIME
 Yoldia ,443,BioTIME
 Yoldia cooperii,1,BioTIME
 Yoldia hyperborea,70,BioTIME
@@ -44403,15 +44394,11 @@ Ypthima baldus,1,BioTIME
 Ypthima imitans,1,BioTIME
 Ypthima multistriata,1,BioTIME
 Yrbozoon conspicuum,1,BioTIME
-YRWA ,1,BioTIME
 Ysideria hastata,1,BioTIME
-YTWA ,1,BioTIME
-YUBAC ,1,BioTIME
-YUBAL ,1,BioTIME
 Yucca baccata,2,BioTIME
 Yucca glauca,3,BioTIME
 Yunquenus portoricanus,1,BioTIME
-YWAR ,1,BioTIME
+ZTHA ,1,BioTIME
 Zabidius novemaculeatus,124,BioTIME
 Zachsiella sp1,1,BioTIME
 Zale lunata,1,BioTIME
@@ -44548,7 +44535,6 @@ Zostera noltei,25,BioTIME
 Zosteropoda hirtipes,1,BioTIME
 Zosterops japonicus,536,BioTIME
 Zotheca tranquilla,1,BioTIME
-ZTHA ,1,BioTIME
 Zu ,2,BioTIME
 Zu cristatus,2,BioTIME
 Zu elongatus,19,BioTIME
@@ -44565,6 +44551,20 @@ Zygoptera ,1,BioTIME
 Zygosphaera marsilii,5,BioTIME
 Zyras collaris,1,BioTIME
 Zyras sp,2,BioTIME
+barnacle ,33,BioTIME
+dead wood,1,BioTIME
+frgu ,1,BioTIME
+hydroid ,4,BioTIME
+imonia sp1,1,BioTIME
+imonia sp2,1,BioTIME
+input8_GENUS input8_SPECIES,1,BioTIME
+pagurid ,1,BioTIME
+parascorpaena mossambica,2,BioTIME
+picophytoplankton ,123,BioTIME
+remi ,1,BioTIME
+solidago drummondii,1,BioTIME
+squid ,1,BioTIME
+unspecifiable ,60,BioTIME
 Abramis_ballerus,1,LPI
 Abramis_brama,4,LPI
 Abrothrix_longipilis,2,LPI
@@ -49244,8 +49244,8 @@ Dipodomys,2,GPDD
 Dipodomys merriami,3,GPDD
 Dipodomys ordii,3,GPDD
 Dipodomys spectabilis,3,GPDD
-Diprion hercyniae,1,GPDD
 Diprion Pini,2,GPDD
+Diprion hercyniae,1,GPDD
 Discestra trifolii,1,GPDD
 Distichlis scoparia,2,GPDD
 Ditropis pteridis,1,GPDD

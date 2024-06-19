@@ -80,3 +80,4 @@ length(which(acc_notfsp %in% splist$species))
 ## generate list of the overlapping species
 sp_overlap <- acc_accsp$genus_species[which(acc_accsp$genus_species_accepted %in% splist$species)]
 
+write.csv(sp_overlap, "data-processed/bioshifts_sp_of_interest.csv", row.names = F)

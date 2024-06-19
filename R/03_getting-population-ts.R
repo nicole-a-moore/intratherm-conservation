@@ -247,8 +247,8 @@ new_ol <- new_ol %>%
            ifelse(is.na(sum.allrawdata.BIOMASS), 0, sum.allrawdata.BIOMASS)) %>%
   group_by(decimal_date, GENUS_SPECIES, STUDY_ID) %>%
   add_count() %>%
-  mutate(sum.allrawdata.ABUNDANCE = sum(sum.allrawdata.ABUNDANCE)/n) %>% ## get average abundance of samples taken in same time point + at same loc + same species 
-  mutate(sum.allrawdata.BIOMASS = sum(sum.allrawdata.BIOMASS)/n) %>%
+  mutate(sum.allrawdata.ABUNDANCE = sum(sum.allrawdata.ABUNDANCE)) %>% ## get sum of abundance of samples taken in same time point + at same loc + same species 
+  mutate(sum.allrawdata.BIOMASS = sum(sum.allrawdata.BIOMASS)) %>%
   ungroup() %>%
   .[!duplicated(.[,c("decimal_date","sum.allrawdata.ABUNDANCE",
                      "sum.allrawdata.BIOMASS","GENUS_SPECIES", "STUDY_ID")]),] %>% ## get rid of duplicates 
